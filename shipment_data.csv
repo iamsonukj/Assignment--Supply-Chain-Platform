@@ -1,0 +1,1001 @@
+shipment_id,origin_country,destination_country,carrier_name,shipment_mode,cargo_category,weight_kg,volume_cbm,declared_value_usd,scheduled_departure_date,actual_departure_date,scheduled_delivery_date,actual_delivery_date,customs_cleared,delay_days,is_delayed,status
+SHP-0001,USA,India,BlueDart,Sea,Pharmaceuticals,1935.25,47.59,76016.15,2026-05-27,2026-05-27,2026-06-17,2026-06-24,True,7,1,Held at Customs
+SHP-0002,Canada,USA,UPS,Rail,Electronics,384.61,43.44,13093.89,2026-06-03,2026-06-05,2026-06-21,2026-07-05,True,14,1,Delayed
+SHP-0003,UAE,India,UPS,Sea,Consumer Goods,1140.46,9.91,19771.22,2026-05-10,2026-05-11,2026-06-05,2026-06-16,False,11,1,Held at Customs
+SHP-0004,India,China,Maersk,Road,Perishables,3098.08,7.84,67184.3,2026-05-20,2026-05-22,2026-05-31,2026-06-09,False,9,1,Delayed
+SHP-0005,Brazil,USA,BlueDart,Road,Consumer Goods,327.61,30.77,5510.72,2026-05-20,2026-05-22,2026-06-02,2026-06-16,True,14,1,Delivered
+SHP-0006,Canada,USA,Maersk,Air,Consumer Goods,4061.15,15.93,56477.94,2026-04-26,2026-04-28,2026-05-01,2026-05-15,False,14,1,Held at Customs
+SHP-0007,USA,India,FedEx,Road,Electronics,2016.2,9.93,81080.39,2026-05-11,2026-05-12,2026-05-21,2026-05-20,True,-1,0,Delivered
+SHP-0008,Australia,France,FedEx,Road,Perishables,4227.2,23.04,109087.16,2026-04-25,2026-04-26,2026-05-04,2026-05-06,False,2,1,Delivered
+SHP-0009,USA,China,UPS,Sea,Pharmaceuticals,2744.49,29.75,133410.24,2026-04-25,2026-04-25,2026-05-24,2026-05-31,False,7,1,Delivered
+SHP-0010,Canada,China,BlueDart,Air,Pharmaceuticals,2174.67,20.35,47276.3,2026-05-31,2026-06-02,2026-06-04,2026-06-03,False,-1,0,Delivered
+SHP-0011,USA,Japan,UPS,Road,Pharmaceuticals,3971.86,30.69,186884.1,2026-06-03,2026-06-04,2026-06-16,,False,0,0,In Transit
+SHP-0012,Australia,Germany,BlueDart,Sea,Pharmaceuticals,1721.4,4.11,38627.0,2026-06-01,2026-06-01,2026-06-27,2026-07-08,False,11,1,Delivered
+SHP-0013,Brazil,Australia,BlueDart,Sea,Pharmaceuticals,2850.09,19.76,139279.58,2026-06-03,2026-06-05,2026-06-22,2026-07-06,True,14,1,Delivered
+SHP-0014,USA,China,FedEx,Rail,Consumer Goods,2519.6,26.61,68285.29,2026-05-29,2026-05-30,2026-06-11,2026-06-12,False,1,1,Held at Customs
+SHP-0015,Australia,UAE,BlueDart,Air,Electronics,1640.34,25.92,75952.1,2026-04-30,2026-05-02,2026-05-06,,False,0,0,In Transit
+SHP-0016,France,USA,BlueDart,Rail,Pharmaceuticals,3034.44,35.04,137213.47,2026-05-31,2026-06-01,2026-06-17,2026-06-27,False,10,1,Delivered
+SHP-0017,Germany,UAE,DHL,Road,Consumer Goods,698.23,18.46,32309.29,2026-05-29,2026-05-29,2026-06-11,2026-06-10,True,-1,0,Delivered
+SHP-0018,Germany,UAE,UPS,Air,Consumer Goods,906.81,27.17,26654.05,2026-05-07,2026-05-07,2026-05-11,2026-05-17,True,6,1,Delayed
+SHP-0019,France,Japan,FedEx,Air,Pharmaceuticals,1171.94,28.35,30650.27,2026-05-10,2026-05-11,2026-05-12,2026-05-11,True,-1,0,Delivered
+SHP-0020,Australia,USA,UPS,Sea,Pharmaceuticals,1574.3,14.96,18065.84,2026-05-29,2026-05-29,2026-06-14,2026-06-11,True,-3,0,Delivered
+SHP-0021,UAE,Brazil,FedEx,Sea,Perishables,1790.85,32.08,66670.15,2026-05-02,2026-05-02,2026-05-22,2026-05-29,False,7,1,Delayed
+SHP-0022,Canada,Australia,DHL,Sea,Pharmaceuticals,3831.94,12.64,149938.65,2026-04-25,2026-04-25,2026-05-11,2026-05-22,True,11,1,Held at Customs
+SHP-0023,China,Japan,DHL,Air,Electronics,4100.52,40.12,65726.01,2026-05-07,2026-05-09,2026-05-13,2026-05-24,True,11,1,Delivered
+SHP-0024,USA,UAE,FedEx,Road,Industrial,1179.18,35.85,49973.7,2026-04-27,2026-04-29,2026-05-02,2026-05-09,True,7,1,Delivered
+SHP-0025,UAE,Australia,FedEx,Rail,Industrial,4689.98,7.74,110883.57,2026-05-08,2026-05-08,2026-05-21,2026-06-02,True,12,1,Held at Customs
+SHP-0026,France,Australia,Maersk,Rail,Electronics,957.28,49.13,29355.41,2026-05-02,2026-05-02,2026-05-13,2026-05-13,True,0,0,Delivered
+SHP-0027,France,USA,FedEx,Sea,Pharmaceuticals,3202.2,17.61,76751.56,2026-05-23,2026-05-25,2026-06-07,2026-06-18,True,11,1,Delayed
+SHP-0028,Japan,Canada,FedEx,Air,Industrial,4684.61,39.48,172204.06,2026-05-26,2026-05-27,2026-05-30,2026-05-27,True,-3,0,Delivered
+SHP-0029,Canada,India,DHL,Sea,Pharmaceuticals,124.8,8.88,3987.28,2026-05-11,2026-05-12,2026-06-10,2026-06-11,False,1,1,Delayed
+SHP-0030,Brazil,India,FedEx,Rail,Electronics,188.57,25.2,3234.52,2026-05-30,2026-06-01,2026-06-17,,False,-1,0,In Transit
+SHP-0031,Australia,Japan,Maersk,Rail,Pharmaceuticals,1901.81,13.99,37578.98,2026-05-07,2026-05-08,2026-05-21,2026-06-01,True,11,1,Delivered
+SHP-0032,UAE,Canada,DHL,Road,Electronics,2228.53,18.15,79790.59,2026-05-03,2026-05-05,2026-05-10,2026-05-13,False,3,1,Held at Customs
+SHP-0033,Canada,Germany,DHL,Air,Pharmaceuticals,3865.91,3.14,192452.81,2026-05-15,2026-05-16,2026-05-21,2026-05-24,True,3,1,Held at Customs
+SHP-0034,China,Australia,DHL,Sea,Consumer Goods,3763.82,47.7,87433.58,2026-05-27,2026-05-28,2026-06-13,2026-06-12,True,-1,0,Delivered
+SHP-0035,UAE,Canada,BlueDart,Road,Pharmaceuticals,1597.92,10.35,33139.25,2026-05-20,2026-05-22,2026-05-30,2026-06-02,False,3,1,Delayed
+SHP-0036,Brazil,Germany,BlueDart,Rail,Perishables,2893.3,5.76,100109.02,2026-05-09,2026-05-10,2026-05-25,2026-05-22,True,-3,0,Delivered
+SHP-0037,UAE,USA,DHL,Sea,Consumer Goods,4258.48,7.69,163340.13,2026-05-15,2026-05-17,2026-06-08,2026-06-11,False,3,1,Delivered
+SHP-0038,China,Brazil,BlueDart,Sea,Industrial,1355.41,30.96,17977.84,2026-05-02,2026-05-04,2026-05-20,2026-05-20,False,0,0,Delivered
+SHP-0039,Canada,India,UPS,Road,Electronics,3539.64,39.99,161408.34,2026-04-29,2026-05-01,2026-05-05,2026-05-04,True,-1,0,Delivered
+SHP-0040,USA,UAE,FedEx,Road,Perishables,276.12,23.81,8754.6,2026-05-02,2026-05-02,2026-05-10,2026-05-16,False,6,1,Delayed
+SHP-0041,Japan,UAE,Maersk,Road,Electronics,1586.0,27.32,36582.75,2026-05-31,2026-05-31,2026-06-09,2026-06-13,False,4,1,Delivered
+SHP-0042,India,USA,BlueDart,Sea,Perishables,4225.91,10.52,111792.88,2026-04-27,2026-04-29,2026-05-27,2026-06-06,False,10,1,Held at Customs
+SHP-0043,Brazil,UAE,DHL,Air,Electronics,1682.49,39.96,35051.8,2026-05-26,2026-05-27,2026-05-29,2026-05-27,True,-2,0,Delivered
+SHP-0044,France,UAE,FedEx,Rail,Pharmaceuticals,4196.3,35.1,110606.57,2026-04-30,2026-05-01,2026-05-12,2026-05-21,False,9,1,Delivered
+SHP-0045,India,Brazil,FedEx,Sea,Electronics,3334.97,14.72,160727.58,2026-05-05,2026-05-07,2026-05-22,2026-05-27,False,5,1,Delivered
+SHP-0046,Germany,Japan,FedEx,Sea,Industrial,688.81,17.75,9417.38,2026-06-01,2026-06-03,2026-06-29,2026-07-11,False,12,1,Delivered
+SHP-0047,Brazil,China,BlueDart,Sea,Electronics,184.09,38.4,7782.68,2026-05-16,2026-05-16,2026-06-09,2026-06-13,True,4,1,Delivered
+SHP-0048,China,Japan,Maersk,Road,Perishables,321.99,19.36,11280.73,2026-05-28,2026-05-29,2026-06-05,2026-06-05,True,0,0,Delivered
+SHP-0049,China,Australia,BlueDart,Road,Electronics,3247.85,2.3,108578.95,2026-05-01,2026-05-03,2026-05-07,2026-05-07,False,0,0,Delivered
+SHP-0050,Canada,Brazil,UPS,Road,Electronics,729.65,40.75,31247.68,2026-04-29,2026-05-01,2026-05-11,2026-05-22,False,11,1,Delayed
+SHP-0051,Japan,India,DHL,Rail,Perishables,1059.38,4.4,14864.29,2026-05-30,2026-05-31,2026-06-08,2026-06-07,False,-1,0,Delivered
+SHP-0052,Canada,USA,Maersk,Sea,Perishables,448.82,16.63,19656.08,2026-05-08,2026-05-09,2026-06-10,2026-06-14,False,4,1,Delayed
+SHP-0053,Canada,China,BlueDart,Rail,Electronics,3495.16,18.07,165901.01,2026-05-03,2026-05-03,2026-05-14,2026-05-11,False,-3,0,Delivered
+SHP-0054,USA,France,UPS,Road,Industrial,2885.75,29.22,113311.6,2026-05-26,2026-05-27,2026-06-07,2026-06-21,False,14,1,Held at Customs
+SHP-0055,China,Australia,Maersk,Sea,Consumer Goods,2853.15,12.69,106119.47,2026-05-24,2026-05-26,2026-06-10,2026-06-11,False,1,1,Held at Customs
+SHP-0056,India,France,BlueDart,Sea,Industrial,2575.74,41.5,58731.98,2026-05-18,2026-05-20,2026-06-18,2026-06-15,False,-3,0,Delivered
+SHP-0057,Australia,China,UPS,Rail,Pharmaceuticals,4536.37,5.47,103304.69,2026-05-26,2026-05-27,2026-06-06,2026-06-03,False,-3,0,Delivered
+SHP-0058,UAE,France,DHL,Sea,Perishables,1536.73,17.1,56706.47,2026-04-25,2026-04-25,2026-05-16,2026-05-26,True,10,1,Delayed
+SHP-0059,India,Japan,Maersk,Air,Industrial,382.04,27.93,10567.69,2026-05-26,2026-05-28,2026-06-01,2026-06-10,True,9,1,Delivered
+SHP-0060,Brazil,Canada,Maersk,Sea,Pharmaceuticals,3831.4,31.29,53811.66,2026-05-29,2026-05-31,2026-06-20,2026-06-22,True,2,1,Delivered
+SHP-0061,USA,Australia,FedEx,Sea,Consumer Goods,4470.29,8.18,136491.57,2026-05-04,2026-05-05,2026-05-26,2026-05-30,True,4,1,Delivered
+SHP-0062,USA,Canada,FedEx,Rail,Consumer Goods,1259.76,45.48,42423.11,2026-05-27,2026-05-28,2026-06-09,2026-06-08,False,-1,0,Lost
+SHP-0063,Australia,UAE,Maersk,Rail,Pharmaceuticals,1318.75,17.18,36104.83,2026-05-29,2026-05-29,2026-06-08,2026-06-08,False,0,0,Delivered
+SHP-0064,China,France,UPS,Rail,Pharmaceuticals,3859.25,41.32,153476.45,2026-05-16,2026-05-18,2026-05-30,2026-05-31,True,1,1,Delivered
+SHP-0065,China,France,BlueDart,Road,Consumer Goods,1195.62,48.2,12537.49,2026-04-28,2026-04-28,2026-05-07,2026-05-12,True,5,1,Delayed
+SHP-0066,Germany,Japan,DHL,Rail,Industrial,4965.53,4.62,159662.5,2026-05-24,2026-05-24,2026-05-31,2026-06-14,False,14,1,Delayed
+SHP-0067,China,Australia,Maersk,Air,Consumer Goods,1543.02,49.8,58444.97,2026-05-17,2026-05-19,2026-05-19,2026-05-25,True,6,1,Delivered
+SHP-0068,Japan,Australia,Maersk,Sea,Industrial,2332.72,31.39,49209.31,2026-05-14,2026-05-15,2026-06-15,2026-06-19,False,4,1,Delayed
+SHP-0069,Brazil,France,Maersk,Sea,Industrial,4932.43,35.21,155094.61,2026-05-28,2026-05-28,2026-07-01,,True,-2,0,In Transit
+SHP-0070,UAE,India,DHL,Rail,Pharmaceuticals,4754.02,36.56,164187.72,2026-05-25,2026-05-26,2026-06-07,2026-06-07,True,0,0,Delivered
+SHP-0071,Brazil,France,FedEx,Rail,Perishables,1944.67,40.72,96243.75,2026-05-11,2026-05-11,2026-05-19,2026-05-28,False,9,1,Delayed
+SHP-0072,Brazil,Japan,DHL,Rail,Electronics,2132.62,14.4,26135.3,2026-04-30,2026-05-01,2026-05-11,2026-05-09,True,-2,0,Lost
+SHP-0073,France,China,DHL,Air,Electronics,4574.51,29.67,178610.98,2026-06-01,2026-06-02,2026-06-04,,True,-2,0,In Transit
+SHP-0074,UAE,Germany,FedEx,Sea,Industrial,1104.72,13.32,23187.27,2026-05-09,2026-05-10,2026-06-09,2026-06-09,True,0,0,Delivered
+SHP-0075,Japan,Brazil,FedEx,Air,Pharmaceuticals,1416.5,2.09,42391.04,2026-05-11,2026-05-12,2026-05-15,2026-05-15,True,0,0,Delivered
+SHP-0076,Japan,Australia,Maersk,Sea,Electronics,2848.6,43.96,74460.45,2026-05-09,2026-05-11,2026-06-06,2026-06-09,True,3,1,Delayed
+SHP-0077,Japan,USA,UPS,Air,Perishables,4525.44,31.25,222735.41,2026-06-03,2026-06-04,2026-06-06,2026-06-06,False,0,0,Delivered
+SHP-0078,France,India,Maersk,Rail,Electronics,2782.49,23.09,129159.99,2026-05-11,2026-05-12,2026-05-22,2026-06-04,False,13,1,Held at Customs
+SHP-0079,Australia,Germany,Maersk,Sea,Consumer Goods,820.66,46.4,24361.01,2026-05-19,2026-05-19,2026-06-08,2026-06-05,False,-3,0,Delivered
+SHP-0080,Canada,Australia,Maersk,Rail,Consumer Goods,1124.74,29.4,26614.19,2026-05-07,2026-05-09,2026-05-21,2026-05-25,True,4,1,Delivered
+SHP-0081,USA,France,Maersk,Sea,Industrial,991.21,17.94,45468.33,2026-05-21,2026-05-23,2026-06-22,2026-06-25,False,3,1,Delayed
+SHP-0082,Australia,France,FedEx,Rail,Pharmaceuticals,4126.77,17.91,98649.48,2026-05-03,2026-05-04,2026-05-14,2026-05-23,False,9,1,Delayed
+SHP-0083,UAE,Japan,UPS,Air,Consumer Goods,1844.36,44.82,27941.94,2026-05-05,2026-05-06,2026-05-11,2026-05-10,True,-1,0,Delivered
+SHP-0084,Brazil,Canada,UPS,Sea,Industrial,3176.71,5.01,142771.34,2026-05-25,2026-05-27,2026-06-25,2026-06-22,False,-3,0,Delivered
+SHP-0085,India,Germany,BlueDart,Sea,Industrial,514.13,30.27,25423.87,2026-05-30,2026-06-01,2026-06-27,2026-07-10,False,13,1,Held at Customs
+SHP-0086,France,Canada,UPS,Road,Industrial,405.47,8.24,6213.7,2026-05-30,2026-06-01,2026-06-05,2026-06-03,False,-2,0,Delivered
+SHP-0087,Australia,Japan,BlueDart,Road,Pharmaceuticals,2709.82,12.88,56282.23,2026-05-18,2026-05-18,2026-05-29,2026-05-30,True,1,1,Delayed
+SHP-0088,Canada,Germany,FedEx,Sea,Industrial,1136.1,17.05,16803.47,2026-04-25,2026-04-25,2026-05-29,2026-06-08,False,10,1,Delivered
+SHP-0089,China,France,FedEx,Road,Pharmaceuticals,3966.94,25.42,53461.7,2026-05-20,2026-05-22,2026-06-01,2026-06-02,True,1,1,Delayed
+SHP-0090,India,UAE,BlueDart,Sea,Industrial,2865.85,19.56,67341.38,2026-05-10,2026-05-11,2026-06-06,2026-06-15,True,9,1,Held at Customs
+SHP-0091,Australia,Canada,Maersk,Road,Pharmaceuticals,1262.41,5.99,20342.94,2026-05-15,2026-05-17,2026-05-27,,False,-3,0,In Transit
+SHP-0092,Australia,USA,DHL,Rail,Industrial,493.15,26.7,13026.99,2026-05-01,2026-05-03,2026-05-13,2026-05-19,True,6,1,Delayed
+SHP-0093,UAE,Japan,DHL,Sea,Electronics,1363.72,9.37,50110.89,2026-04-25,2026-04-25,2026-05-24,2026-05-23,False,-1,0,Delivered
+SHP-0094,UAE,China,UPS,Rail,Industrial,4209.05,11.05,205063.92,2026-05-27,2026-05-29,2026-06-03,,False,0,0,In Transit
+SHP-0095,Brazil,Japan,UPS,Air,Consumer Goods,662.7,30.92,14278.02,2026-06-01,2026-06-01,2026-06-05,,True,-2,0,In Transit
+SHP-0096,China,Japan,BlueDart,Air,Pharmaceuticals,1749.36,7.59,21928.23,2026-04-26,2026-04-27,2026-05-02,2026-05-03,True,1,1,Delayed
+SHP-0097,Brazil,Canada,UPS,Rail,Perishables,780.24,1.13,11444.44,2026-05-05,2026-05-07,2026-05-23,2026-06-04,False,12,1,Delivered
+SHP-0098,Australia,USA,FedEx,Road,Consumer Goods,2101.74,46.71,104324.44,2026-05-04,2026-05-05,2026-05-11,2026-05-11,True,0,0,Delivered
+SHP-0099,Canada,China,FedEx,Road,Pharmaceuticals,3635.82,3.36,150016.04,2026-05-22,2026-05-24,2026-05-29,2026-06-03,True,5,1,Delivered
+SHP-0100,UAE,Japan,Maersk,Air,Industrial,4091.42,33.59,126517.41,2026-05-03,2026-05-03,2026-05-09,,False,0,0,In Transit
+SHP-0101,Canada,UAE,Maersk,Rail,Electronics,2314.55,35.98,106438.51,2026-04-28,2026-04-28,2026-05-13,2026-05-10,False,-3,0,Delivered
+SHP-0102,UAE,Japan,DHL,Air,Pharmaceuticals,4507.92,19.81,143090.91,2026-05-28,2026-05-30,2026-06-01,2026-05-31,True,-1,0,Lost
+SHP-0103,Japan,India,FedEx,Rail,Consumer Goods,3679.69,34.99,61337.6,2026-05-21,2026-05-23,2026-06-03,2026-06-02,False,-1,0,Delivered
+SHP-0104,UAE,Brazil,Maersk,Air,Industrial,3964.13,8.43,89069.57,2026-05-02,2026-05-02,2026-05-06,2026-05-08,False,2,1,Delayed
+SHP-0105,USA,China,BlueDart,Rail,Industrial,3836.05,43.96,90850.21,2026-05-23,2026-05-24,2026-06-11,2026-06-19,False,8,1,Delivered
+SHP-0106,Canada,India,Maersk,Air,Perishables,3059.39,25.61,96659.67,2026-05-19,2026-05-19,2026-05-24,2026-05-27,True,3,1,Delivered
+SHP-0107,Brazil,UAE,DHL,Rail,Industrial,3500.35,27.59,70258.89,2026-04-27,2026-04-27,2026-05-11,2026-05-17,False,6,1,Held at Customs
+SHP-0108,Australia,Canada,DHL,Sea,Perishables,1214.02,21.76,26122.29,2026-05-28,2026-05-30,2026-06-24,2026-07-03,False,9,1,Delayed
+SHP-0109,Australia,USA,DHL,Sea,Pharmaceuticals,1354.48,36.58,45671.06,2026-05-09,2026-05-09,2026-05-31,2026-06-12,True,12,1,Held at Customs
+SHP-0110,USA,Japan,DHL,Rail,Electronics,1934.73,4.38,25331.12,2026-06-03,2026-06-04,2026-06-10,2026-06-08,True,-2,0,Delivered
+SHP-0111,Japan,UAE,BlueDart,Rail,Industrial,1255.94,9.11,21919.71,2026-04-28,2026-04-30,2026-05-11,2026-05-10,True,-1,0,Delivered
+SHP-0112,Germany,Australia,FedEx,Sea,Electronics,2997.25,20.55,36537.87,2026-05-12,2026-05-12,2026-06-15,2026-06-25,False,10,1,Delayed
+SHP-0113,Canada,Japan,DHL,Road,Perishables,1734.15,20.51,54618.48,2026-05-04,2026-05-06,2026-05-10,,False,-2,0,In Transit
+SHP-0114,Australia,UAE,Maersk,Road,Perishables,4600.43,29.77,52048.65,2026-05-09,2026-05-11,2026-05-17,2026-05-22,False,5,1,Delayed
+SHP-0115,France,China,FedEx,Rail,Pharmaceuticals,4582.74,18.76,152254.82,2026-05-31,2026-06-01,2026-06-07,2026-06-06,False,-1,0,Delivered
+SHP-0116,Australia,Brazil,Maersk,Sea,Industrial,4880.15,23.49,157590.85,2026-05-21,2026-05-22,2026-06-12,2026-06-09,True,-3,0,Delivered
+SHP-0117,UAE,France,DHL,Rail,Electronics,1618.69,20.47,43820.46,2026-04-25,2026-04-27,2026-05-04,2026-05-02,False,-2,0,Delivered
+SHP-0118,Germany,Australia,FedEx,Air,Industrial,1540.82,35.99,47928.61,2026-05-17,2026-05-18,2026-05-22,2026-05-21,False,-1,0,Delivered
+SHP-0119,Brazil,USA,BlueDart,Rail,Perishables,860.68,9.91,38275.67,2026-05-28,2026-05-30,2026-06-06,2026-06-20,False,14,1,Delivered
+SHP-0120,India,Germany,FedEx,Road,Pharmaceuticals,2680.23,40.24,131752.76,2026-04-29,2026-04-30,2026-05-04,2026-05-03,False,-1,0,Lost
+SHP-0121,USA,Canada,FedEx,Road,Electronics,1344.05,10.61,40617.61,2026-04-28,2026-04-29,2026-05-07,2026-05-10,True,3,1,Delayed
+SHP-0122,France,Australia,FedEx,Sea,Consumer Goods,3298.46,12.67,46104.74,2026-04-29,2026-04-30,2026-05-29,2026-06-03,True,5,1,Delayed
+SHP-0123,USA,Australia,UPS,Sea,Industrial,791.3,20.91,18167.93,2026-06-01,2026-06-02,2026-06-22,2026-06-19,True,-3,0,Delivered
+SHP-0124,Japan,Canada,BlueDart,Air,Industrial,230.01,9.89,7664.32,2026-05-14,2026-05-15,2026-05-17,2026-05-16,True,-1,0,Delivered
+SHP-0125,France,Japan,Maersk,Road,Industrial,1371.17,19.6,46087.49,2026-05-17,2026-05-17,2026-05-30,2026-05-27,True,-3,0,Lost
+SHP-0126,Australia,USA,FedEx,Rail,Consumer Goods,1542.88,47.47,62554.88,2026-06-01,2026-06-01,2026-06-08,2026-06-10,False,2,1,Delivered
+SHP-0127,Japan,India,Maersk,Road,Electronics,210.1,14.17,6652.89,2026-05-12,2026-05-12,2026-05-25,,True,-2,0,In Transit
+SHP-0128,Australia,Japan,FedEx,Road,Pharmaceuticals,4191.16,49.24,130041.67,2026-06-01,2026-06-01,2026-06-11,2026-06-11,False,0,0,Delivered
+SHP-0129,Germany,USA,DHL,Road,Industrial,676.98,29.25,14191.0,2026-05-10,2026-05-10,2026-05-24,2026-05-31,False,7,1,Delivered
+SHP-0130,USA,France,BlueDart,Rail,Pharmaceuticals,622.24,7.86,12785.38,2026-05-23,2026-05-25,2026-06-10,2026-06-23,False,13,1,Held at Customs
+SHP-0131,Japan,Germany,BlueDart,Rail,Perishables,3358.68,9.59,156435.48,2026-05-11,2026-05-12,2026-05-29,2026-06-04,False,6,1,Delivered
+SHP-0132,Australia,USA,FedEx,Sea,Industrial,3716.36,5.06,126824.81,2026-04-26,2026-04-27,2026-05-21,2026-05-21,False,0,0,Delivered
+SHP-0133,Brazil,India,BlueDart,Air,Industrial,4586.02,36.36,157833.32,2026-05-08,2026-05-09,2026-05-11,2026-05-17,False,6,1,Held at Customs
+SHP-0134,France,USA,FedEx,Rail,Electronics,3689.6,11.53,41498.13,2026-05-13,2026-05-15,2026-05-30,,False,-3,0,In Transit
+SHP-0135,China,USA,Maersk,Road,Industrial,857.89,31.54,24852.64,2026-04-27,2026-04-27,2026-05-02,2026-05-11,True,9,1,Delivered
+SHP-0136,Japan,Canada,DHL,Air,Pharmaceuticals,3554.14,30.32,100892.3,2026-05-14,2026-05-16,2026-05-18,2026-05-18,True,0,0,Delivered
+SHP-0137,France,UAE,Maersk,Sea,Industrial,4841.73,1.26,68383.38,2026-04-26,2026-04-26,2026-05-27,2026-06-05,False,9,1,Held at Customs
+SHP-0138,Japan,India,BlueDart,Sea,Industrial,2285.43,10.07,72393.37,2026-05-02,2026-05-04,2026-06-02,2026-06-08,True,6,1,Delivered
+SHP-0139,USA,Brazil,UPS,Road,Electronics,3222.43,49.05,148665.37,2026-05-06,2026-05-08,2026-05-20,2026-05-27,True,7,1,Delivered
+SHP-0140,Australia,USA,FedEx,Air,Electronics,4996.83,28.23,144550.32,2026-05-15,2026-05-17,2026-05-21,2026-05-21,True,0,0,Lost
+SHP-0141,UAE,China,DHL,Sea,Consumer Goods,664.88,21.67,27801.08,2026-05-31,2026-06-02,2026-06-21,2026-07-02,True,11,1,Delayed
+SHP-0142,Germany,India,BlueDart,Sea,Pharmaceuticals,4161.69,2.81,140876.52,2026-05-19,2026-05-21,2026-06-15,2026-06-20,True,5,1,Delayed
+SHP-0143,India,China,DHL,Road,Pharmaceuticals,2698.3,22.61,70639.92,2026-04-27,2026-04-29,2026-05-07,2026-05-04,True,-3,0,Delivered
+SHP-0144,India,China,Maersk,Air,Electronics,3166.87,44.41,109683.05,2026-05-11,2026-05-12,2026-05-14,2026-05-12,False,-2,0,Delivered
+SHP-0145,USA,Canada,UPS,Sea,Consumer Goods,101.16,10.09,2565.27,2026-05-31,2026-06-02,2026-06-21,2026-07-05,False,14,1,Delayed
+SHP-0146,India,USA,Maersk,Rail,Industrial,533.86,2.84,15584.04,2026-05-06,2026-05-08,2026-05-19,2026-05-19,False,0,0,Delivered
+SHP-0147,Australia,USA,DHL,Road,Consumer Goods,3714.15,12.7,53554.2,2026-04-30,2026-05-01,2026-05-06,2026-05-15,True,9,1,Delayed
+SHP-0148,UAE,Canada,BlueDart,Rail,Consumer Goods,1458.6,45.61,17217.35,2026-05-13,2026-05-15,2026-05-24,2026-06-06,False,13,1,Held at Customs
+SHP-0149,Brazil,USA,DHL,Sea,Industrial,1369.01,29.84,67482.91,2026-05-31,2026-06-02,2026-06-27,2026-07-04,True,7,1,Delayed
+SHP-0150,Australia,Brazil,Maersk,Air,Perishables,4956.73,12.35,236481.97,2026-05-26,2026-05-28,2026-06-01,2026-06-03,False,2,1,Delayed
+SHP-0151,Germany,Canada,DHL,Air,Electronics,1982.04,2.8,95714.32,2026-06-01,2026-06-02,2026-06-07,2026-06-08,True,1,1,Delivered
+SHP-0152,France,Germany,UPS,Air,Consumer Goods,2639.48,30.27,81827.21,2026-05-10,2026-05-12,2026-05-13,2026-05-11,False,-2,0,Delivered
+SHP-0153,Brazil,France,Maersk,Air,Perishables,4982.05,44.97,142163.94,2026-05-27,2026-05-27,2026-06-02,2026-06-02,False,0,0,Delivered
+SHP-0154,Canada,China,FedEx,Rail,Pharmaceuticals,2942.42,5.48,132698.54,2026-05-03,2026-05-05,2026-05-18,,False,-2,0,In Transit
+SHP-0155,France,USA,BlueDart,Sea,Industrial,4324.43,40.67,156586.22,2026-05-29,2026-05-29,2026-06-14,2026-06-13,True,-1,0,Delivered
+SHP-0156,Japan,India,FedEx,Road,Perishables,124.9,35.09,1492.72,2026-05-30,2026-05-31,2026-06-08,2026-06-05,False,-3,0,Delivered
+SHP-0157,Germany,Australia,DHL,Sea,Electronics,401.43,44.26,12301.08,2026-05-04,2026-05-06,2026-05-21,2026-05-23,True,2,1,Delayed
+SHP-0158,Australia,France,FedEx,Road,Perishables,2764.52,43.36,108801.55,2026-06-02,2026-06-04,2026-06-15,,True,-1,0,In Transit
+SHP-0159,Germany,China,UPS,Air,Electronics,1269.58,46.57,18070.39,2026-05-10,2026-05-12,2026-05-15,2026-05-28,False,13,1,Delayed
+SHP-0160,Australia,Brazil,BlueDart,Sea,Consumer Goods,4372.03,2.43,188140.12,2026-04-26,2026-04-27,2026-05-17,2026-05-19,False,2,1,Delayed
+SHP-0161,UAE,Australia,UPS,Road,Electronics,4177.46,25.87,42841.67,2026-04-27,2026-04-27,2026-05-10,2026-05-18,True,8,1,Delayed
+SHP-0162,Japan,China,FedEx,Road,Perishables,1373.04,32.07,43387.26,2026-05-11,2026-05-13,2026-05-25,2026-05-27,True,2,1,Delayed
+SHP-0163,Brazil,Germany,FedEx,Rail,Consumer Goods,1775.17,32.0,83932.03,2026-05-26,2026-05-26,2026-06-03,2026-06-03,False,0,0,Delivered
+SHP-0164,India,Australia,DHL,Rail,Electronics,1574.72,35.7,19989.53,2026-06-02,2026-06-03,2026-06-21,2026-06-21,False,0,0,Delivered
+SHP-0165,Brazil,Japan,DHL,Rail,Electronics,3773.29,7.37,152178.78,2026-05-14,2026-05-16,2026-05-26,,True,-1,0,In Transit
+SHP-0166,UAE,Australia,BlueDart,Air,Industrial,2494.35,38.75,93118.61,2026-06-01,2026-06-02,2026-06-04,2026-06-04,True,0,0,Delivered
+SHP-0167,Brazil,UAE,DHL,Rail,Perishables,2188.29,23.12,36205.15,2026-05-19,2026-05-21,2026-05-27,2026-05-26,True,-1,0,Delivered
+SHP-0168,Germany,USA,UPS,Air,Consumer Goods,3434.45,33.07,71884.35,2026-05-18,2026-05-18,2026-05-23,2026-05-23,False,0,0,Delivered
+SHP-0169,Germany,Japan,DHL,Sea,Perishables,2048.21,14.44,101097.81,2026-05-19,2026-05-19,2026-06-08,2026-06-11,True,3,1,Delivered
+SHP-0170,USA,China,Maersk,Rail,Consumer Goods,252.56,32.93,6248.6,2026-06-01,2026-06-03,2026-06-19,2026-06-17,False,-2,0,Delivered
+SHP-0171,UAE,France,BlueDart,Sea,Industrial,1098.14,5.47,17730.92,2026-05-25,2026-05-27,2026-06-28,2026-07-11,False,13,1,Held at Customs
+SHP-0172,Japan,India,BlueDart,Air,Perishables,743.1,2.59,34802.28,2026-05-04,2026-05-06,2026-05-09,2026-05-10,True,1,1,Delayed
+SHP-0173,Japan,USA,DHL,Rail,Industrial,3075.8,13.13,99460.63,2026-04-29,2026-04-29,2026-05-13,2026-05-12,True,-1,0,Delivered
+SHP-0174,UAE,China,BlueDart,Rail,Consumer Goods,4923.32,8.33,140727.9,2026-05-12,2026-05-13,2026-05-29,2026-06-11,True,13,1,Delayed
+SHP-0175,France,USA,UPS,Sea,Electronics,3809.59,47.68,176432.57,2026-04-28,2026-04-30,2026-05-21,2026-05-30,False,9,1,Delivered
+SHP-0176,Canada,UAE,UPS,Sea,Perishables,2897.43,1.9,84878.05,2026-05-17,2026-05-17,2026-06-08,2026-06-09,False,1,1,Delayed
+SHP-0177,France,India,BlueDart,Air,Perishables,2636.79,5.31,63349.08,2026-05-29,2026-05-29,2026-06-04,2026-06-11,False,7,1,Delayed
+SHP-0178,UAE,Germany,BlueDart,Air,Consumer Goods,750.31,28.81,28195.6,2026-05-14,2026-05-15,2026-05-17,2026-05-14,False,-3,0,Delivered
+SHP-0179,Brazil,Germany,UPS,Air,Perishables,4762.59,7.09,218359.28,2026-06-01,2026-06-01,2026-06-03,,False,0,0,In Transit
+SHP-0180,Canada,USA,Maersk,Road,Electronics,4367.75,35.99,183747.41,2026-05-31,2026-06-01,2026-06-08,2026-06-14,True,6,1,Delivered
+SHP-0181,France,Canada,FedEx,Sea,Pharmaceuticals,4104.76,23.16,146716.88,2026-05-11,2026-05-11,2026-06-04,2026-06-16,False,12,1,Delivered
+SHP-0182,USA,UAE,UPS,Air,Perishables,1310.81,8.82,58817.8,2026-05-10,2026-05-11,2026-05-14,2026-05-14,True,0,0,Delivered
+SHP-0183,Germany,China,FedEx,Sea,Industrial,4371.98,22.25,51355.32,2026-04-28,2026-04-29,2026-05-31,2026-06-08,False,8,1,Held at Customs
+SHP-0184,China,Canada,UPS,Road,Industrial,4876.49,32.87,87687.57,2026-05-27,2026-05-29,2026-06-01,2026-06-13,True,12,1,Delayed
+SHP-0185,Australia,China,BlueDart,Rail,Industrial,953.55,48.08,25399.04,2026-05-07,2026-05-07,2026-05-25,2026-05-25,False,0,0,Delivered
+SHP-0186,Brazil,Germany,FedEx,Sea,Perishables,2762.17,26.19,92594.39,2026-05-07,2026-05-08,2026-05-23,2026-05-25,False,2,1,Delivered
+SHP-0187,Canada,USA,UPS,Air,Perishables,3985.48,33.1,198019.9,2026-04-25,2026-04-26,2026-05-01,2026-05-03,True,2,1,Delayed
+SHP-0188,Canada,Germany,Maersk,Air,Pharmaceuticals,3194.65,36.92,48759.01,2026-05-17,2026-05-18,2026-05-20,,False,-3,0,In Transit
+SHP-0189,Brazil,India,Maersk,Road,Pharmaceuticals,4286.49,25.12,85255.04,2026-06-02,2026-06-02,2026-06-08,2026-06-14,True,6,1,Delayed
+SHP-0190,India,Brazil,DHL,Road,Pharmaceuticals,3295.4,16.3,85554.64,2026-05-29,2026-05-31,2026-06-03,2026-06-15,False,12,1,Delivered
+SHP-0191,Australia,Germany,Maersk,Rail,Consumer Goods,741.28,48.52,20868.2,2026-05-30,2026-06-01,2026-06-15,2026-06-28,True,13,1,Delayed
+SHP-0192,China,Germany,UPS,Rail,Electronics,1751.32,41.62,47698.08,2026-05-16,2026-05-18,2026-05-28,2026-05-28,True,0,0,Delivered
+SHP-0193,India,Japan,Maersk,Rail,Electronics,1958.86,30.67,47540.13,2026-04-26,2026-04-26,2026-05-14,2026-05-22,False,8,1,Held at Customs
+SHP-0194,India,UAE,UPS,Sea,Pharmaceuticals,2968.24,43.55,54121.84,2026-05-12,2026-05-12,2026-06-13,2026-06-18,True,5,1,Held at Customs
+SHP-0195,China,Australia,FedEx,Air,Consumer Goods,4689.37,2.93,69798.44,2026-05-22,2026-05-23,2026-05-28,2026-05-27,True,-1,0,Lost
+SHP-0196,Canada,UAE,UPS,Air,Industrial,303.71,8.27,15023.08,2026-05-31,2026-06-02,2026-06-04,2026-06-01,True,-3,0,Delivered
+SHP-0197,France,Japan,DHL,Road,Electronics,4352.8,23.28,133299.46,2026-05-02,2026-05-03,2026-05-10,2026-05-24,True,14,1,Delivered
+SHP-0198,France,Germany,DHL,Road,Consumer Goods,1608.86,35.53,29078.76,2026-05-29,2026-05-31,2026-06-09,2026-06-22,True,13,1,Delivered
+SHP-0199,Australia,Canada,FedEx,Sea,Electronics,2274.38,43.54,38860.04,2026-05-29,2026-05-30,2026-06-23,2026-06-21,False,-2,0,Delivered
+SHP-0200,China,India,FedEx,Air,Perishables,3127.45,43.58,102656.64,2026-05-03,2026-05-05,2026-05-05,2026-05-02,False,-3,0,Lost
+SHP-0201,Canada,Australia,BlueDart,Air,Pharmaceuticals,1156.81,33.29,29793.15,2026-05-11,2026-05-11,2026-05-13,2026-05-22,True,9,1,Delivered
+SHP-0202,France,Japan,DHL,Road,Industrial,4345.55,49.67,174244.0,2026-05-16,2026-05-16,2026-05-24,,False,-3,0,In Transit
+SHP-0203,Brazil,France,FedEx,Rail,Industrial,3849.44,46.36,105963.13,2026-05-13,2026-05-14,2026-05-26,2026-05-29,False,3,1,Delivered
+SHP-0204,Brazil,USA,Maersk,Sea,Consumer Goods,4357.61,19.41,95321.72,2026-05-25,2026-05-27,2026-06-23,2026-07-03,True,10,1,Delayed
+SHP-0205,Japan,France,Maersk,Rail,Pharmaceuticals,2041.25,35.08,52138.27,2026-05-21,2026-05-21,2026-05-30,2026-05-30,False,0,0,Delivered
+SHP-0206,France,Australia,BlueDart,Air,Electronics,171.87,29.77,2876.72,2026-05-27,2026-05-28,2026-05-30,2026-05-27,False,-3,0,Delivered
+SHP-0207,Germany,India,FedEx,Rail,Electronics,4330.33,26.44,126303.93,2026-05-03,2026-05-03,2026-05-11,2026-05-16,True,5,1,Delivered
+SHP-0208,France,Brazil,Maersk,Air,Consumer Goods,1305.74,24.36,33654.94,2026-05-06,2026-05-08,2026-05-09,2026-05-20,False,11,1,Delivered
+SHP-0209,France,Canada,DHL,Sea,Consumer Goods,137.06,32.73,6293.96,2026-05-10,2026-05-10,2026-06-04,2026-06-09,False,5,1,Held at Customs
+SHP-0210,China,USA,DHL,Sea,Industrial,2448.0,10.53,40767.19,2026-05-20,2026-05-20,2026-06-17,2026-06-27,True,10,1,Delayed
+SHP-0211,Japan,Canada,FedEx,Road,Industrial,3090.64,36.09,64609.71,2026-05-20,2026-05-21,2026-05-31,2026-06-10,True,10,1,Delivered
+SHP-0212,Australia,Germany,Maersk,Air,Perishables,4018.93,10.04,87657.41,2026-05-09,2026-05-09,2026-05-12,2026-05-12,True,0,0,Delivered
+SHP-0213,Japan,France,FedEx,Sea,Perishables,2469.37,40.49,79042.22,2026-04-25,2026-04-25,2026-05-24,2026-05-30,True,6,1,Delivered
+SHP-0214,Germany,Japan,Maersk,Air,Perishables,2624.36,30.08,109566.38,2026-05-28,2026-05-30,2026-05-31,2026-06-01,False,1,1,Delayed
+SHP-0215,Canada,Germany,UPS,Air,Electronics,1260.67,39.25,26464.29,2026-05-21,2026-05-23,2026-05-26,2026-05-28,False,2,1,Held at Customs
+SHP-0216,Brazil,USA,FedEx,Road,Electronics,3856.62,8.34,103965.96,2026-04-27,2026-04-27,2026-05-03,2026-05-10,False,7,1,Delayed
+SHP-0217,Canada,Germany,FedEx,Rail,Consumer Goods,2723.25,9.74,61248.27,2026-05-04,2026-05-06,2026-05-19,,True,-2,0,In Transit
+SHP-0218,Canada,Germany,BlueDart,Sea,Pharmaceuticals,3196.88,3.86,50098.23,2026-04-30,2026-05-02,2026-06-01,2026-06-07,True,6,1,Delayed
+SHP-0219,Canada,Japan,DHL,Road,Pharmaceuticals,2284.38,36.5,24289.46,2026-05-21,2026-05-22,2026-06-04,2026-06-02,False,-2,0,Delivered
+SHP-0220,Japan,UAE,DHL,Sea,Consumer Goods,4537.07,38.86,93444.67,2026-05-23,2026-05-23,2026-06-10,2026-06-10,True,0,0,Delivered
+SHP-0221,UAE,France,UPS,Air,Electronics,1898.08,17.83,65837.24,2026-05-26,2026-05-26,2026-05-28,2026-06-08,False,11,1,Held at Customs
+SHP-0222,UAE,Brazil,UPS,Air,Industrial,3236.82,14.29,109121.23,2026-04-28,2026-04-30,2026-05-03,2026-05-01,False,-2,0,Delivered
+SHP-0223,Japan,Canada,FedEx,Rail,Perishables,4971.28,33.43,160628.7,2026-05-17,2026-05-18,2026-06-04,2026-06-14,True,10,1,Delayed
+SHP-0224,Brazil,Canada,Maersk,Sea,Perishables,4792.36,9.59,180193.67,2026-06-03,2026-06-03,2026-07-03,2026-07-11,False,8,1,Delivered
+SHP-0225,France,Brazil,Maersk,Sea,Perishables,3997.7,46.43,77498.15,2026-05-06,2026-05-08,2026-06-09,2026-06-21,True,12,1,Delayed
+SHP-0226,Australia,USA,BlueDart,Rail,Pharmaceuticals,1293.92,33.91,17748.92,2026-05-19,2026-05-20,2026-05-26,2026-05-31,True,5,1,Delayed
+SHP-0227,Brazil,Australia,FedEx,Sea,Perishables,4147.73,39.32,159064.57,2026-05-22,2026-05-23,2026-06-06,2026-06-03,False,-3,0,Delivered
+SHP-0228,Germany,Canada,UPS,Rail,Industrial,1864.67,5.29,88531.39,2026-04-25,2026-04-25,2026-05-05,2026-05-03,False,-2,0,Delivered
+SHP-0229,Brazil,UAE,Maersk,Sea,Pharmaceuticals,2291.29,30.43,70175.74,2026-05-14,2026-05-16,2026-06-12,2026-06-17,True,5,1,Delayed
+SHP-0230,Australia,Canada,BlueDart,Air,Electronics,2016.11,25.56,52191.34,2026-05-09,2026-05-10,2026-05-12,2026-05-22,False,10,1,Delivered
+SHP-0231,Brazil,France,DHL,Rail,Electronics,4353.48,40.49,181110.07,2026-05-18,2026-05-19,2026-05-27,2026-05-25,True,-2,0,Delivered
+SHP-0232,Japan,USA,Maersk,Rail,Consumer Goods,853.58,11.96,41221.87,2026-05-06,2026-05-07,2026-05-25,2026-05-31,True,6,1,Delayed
+SHP-0233,USA,Australia,BlueDart,Road,Consumer Goods,1637.27,30.71,25488.89,2026-05-15,2026-05-16,2026-05-22,2026-05-19,True,-3,0,Delivered
+SHP-0234,Canada,Brazil,UPS,Air,Electronics,4143.48,33.65,61615.52,2026-05-05,2026-05-05,2026-05-08,2026-05-21,False,13,1,Delivered
+SHP-0235,Canada,Australia,FedEx,Sea,Perishables,2792.69,48.33,76240.2,2026-05-30,2026-05-30,2026-07-01,2026-06-30,False,-1,0,Delivered
+SHP-0236,UAE,Japan,UPS,Road,Consumer Goods,3135.98,32.86,50429.68,2026-05-02,2026-05-04,2026-05-08,2026-05-05,False,-3,0,Delivered
+SHP-0237,Japan,Canada,DHL,Road,Perishables,385.0,49.75,4739.82,2026-05-14,2026-05-16,2026-05-27,2026-05-24,False,-3,0,Delivered
+SHP-0238,India,Canada,BlueDart,Sea,Electronics,694.79,15.86,9756.12,2026-05-27,2026-05-27,2026-06-14,2026-06-15,True,1,1,Held at Customs
+SHP-0239,UAE,Brazil,FedEx,Sea,Electronics,1239.96,11.82,21017.45,2026-05-04,2026-05-05,2026-05-23,2026-05-26,True,3,1,Delayed
+SHP-0240,Australia,France,Maersk,Sea,Industrial,1902.02,21.29,81979.95,2026-05-28,2026-05-28,2026-06-16,2026-06-14,False,-2,0,Delivered
+SHP-0241,UAE,Australia,DHL,Sea,Consumer Goods,2458.59,1.94,50136.87,2026-05-26,2026-05-27,2026-06-16,2026-06-29,False,13,1,Delivered
+SHP-0242,Australia,UAE,Maersk,Road,Pharmaceuticals,159.39,12.82,7815.68,2026-05-22,2026-05-23,2026-05-30,2026-06-02,False,3,1,Held at Customs
+SHP-0243,Japan,Canada,FedEx,Sea,Perishables,1402.67,32.66,42042.72,2026-04-29,2026-05-01,2026-05-17,2026-05-29,True,12,1,Delivered
+SHP-0244,Japan,France,FedEx,Rail,Perishables,3293.38,40.72,113829.92,2026-04-27,2026-04-27,2026-05-12,2026-05-13,False,1,1,Delayed
+SHP-0245,UAE,Canada,Maersk,Rail,Perishables,3327.59,47.2,140941.2,2026-05-19,2026-05-19,2026-06-04,2026-06-04,True,0,0,Delivered
+SHP-0246,Japan,USA,BlueDart,Rail,Perishables,4518.63,23.61,160357.41,2026-05-12,2026-05-13,2026-05-19,2026-05-31,True,12,1,Delayed
+SHP-0247,Canada,Japan,UPS,Road,Pharmaceuticals,2308.04,44.24,32838.19,2026-05-25,2026-05-25,2026-06-06,2026-06-13,True,7,1,Delayed
+SHP-0248,Canada,China,FedEx,Air,Electronics,3609.98,4.53,46389.21,2026-05-07,2026-05-07,2026-05-13,2026-05-23,False,10,1,Delayed
+SHP-0249,Germany,India,UPS,Sea,Industrial,2363.54,49.59,115411.65,2026-05-07,2026-05-09,2026-06-09,2026-06-06,False,-3,0,Delivered
+SHP-0250,China,France,BlueDart,Road,Electronics,3335.48,38.45,68717.08,2026-05-24,2026-05-25,2026-06-05,2026-06-02,True,-3,0,Delivered
+SHP-0251,China,UAE,DHL,Sea,Industrial,4882.36,33.7,50860.07,2026-06-02,2026-06-03,2026-06-30,,True,-3,0,In Transit
+SHP-0252,India,Australia,Maersk,Sea,Perishables,2698.48,3.06,131522.7,2026-05-22,2026-05-22,2026-06-17,2026-06-15,True,-2,0,Delivered
+SHP-0253,UAE,USA,BlueDart,Road,Industrial,2481.48,46.09,76505.83,2026-06-02,2026-06-03,2026-06-07,,False,-2,0,In Transit
+SHP-0254,Germany,UAE,Maersk,Road,Pharmaceuticals,1200.62,19.24,32756.61,2026-05-11,2026-05-12,2026-05-21,2026-05-19,False,-2,0,Delivered
+SHP-0255,Australia,Japan,FedEx,Air,Perishables,4648.76,34.12,138727.89,2026-05-12,2026-05-12,2026-05-18,2026-05-17,True,-1,0,Delivered
+SHP-0256,Brazil,Australia,UPS,Road,Electronics,4247.92,46.03,85339.19,2026-05-03,2026-05-03,2026-05-15,2026-05-22,True,7,1,Delayed
+SHP-0257,Germany,Canada,BlueDart,Sea,Electronics,3315.19,9.69,105426.61,2026-05-02,2026-05-04,2026-05-29,2026-06-11,True,13,1,Delayed
+SHP-0258,Japan,Brazil,BlueDart,Air,Perishables,3457.96,5.5,168074.8,2026-05-20,2026-05-22,2026-05-24,2026-05-29,True,5,1,Delayed
+SHP-0259,USA,Canada,BlueDart,Sea,Industrial,2992.7,25.91,65545.93,2026-05-09,2026-05-11,2026-05-30,2026-06-07,False,8,1,Held at Customs
+SHP-0260,Japan,Brazil,UPS,Sea,Pharmaceuticals,2361.63,1.46,46918.87,2026-05-17,2026-05-17,2026-06-01,2026-05-31,False,-1,0,Delivered
+SHP-0261,UAE,France,Maersk,Rail,Consumer Goods,2067.32,40.2,37545.48,2026-05-06,2026-05-07,2026-05-23,,True,-1,0,In Transit
+SHP-0262,UAE,USA,UPS,Rail,Consumer Goods,3470.63,19.39,109490.83,2026-05-11,2026-05-12,2026-05-26,,True,-2,0,In Transit
+SHP-0263,USA,India,UPS,Sea,Consumer Goods,3817.51,34.24,153657.02,2026-05-18,2026-05-20,2026-06-06,2026-06-19,True,13,1,Delayed
+SHP-0264,Canada,Australia,DHL,Sea,Consumer Goods,3252.49,39.24,60783.72,2026-05-29,2026-05-30,2026-06-18,2026-06-26,False,8,1,Delivered
+SHP-0265,Australia,Germany,UPS,Rail,Industrial,974.03,2.42,16242.34,2026-05-30,2026-05-30,2026-06-12,2026-06-11,False,-1,0,Delivered
+SHP-0266,Japan,India,Maersk,Road,Electronics,2456.77,32.47,30940.91,2026-05-31,2026-06-01,2026-06-12,2026-06-10,True,-2,0,Delivered
+SHP-0267,France,USA,UPS,Air,Electronics,3036.91,30.51,33154.9,2026-05-07,2026-05-09,2026-05-09,2026-05-09,False,0,0,Delivered
+SHP-0268,Brazil,Germany,FedEx,Rail,Perishables,1737.77,39.46,66569.17,2026-05-03,2026-05-05,2026-05-16,2026-05-13,False,-3,0,Delivered
+SHP-0269,Brazil,Australia,DHL,Sea,Perishables,2226.69,5.34,41916.28,2026-05-01,2026-05-03,2026-05-30,2026-06-05,False,6,1,Held at Customs
+SHP-0270,China,India,DHL,Road,Industrial,3248.57,21.64,115152.37,2026-05-20,2026-05-22,2026-05-30,2026-05-29,False,-1,0,Delivered
+SHP-0271,China,Japan,Maersk,Road,Pharmaceuticals,3725.93,47.57,67504.37,2026-05-23,2026-05-23,2026-05-30,2026-06-10,True,11,1,Delayed
+SHP-0272,Brazil,India,FedEx,Sea,Electronics,218.54,41.75,4572.48,2026-05-11,2026-05-11,2026-06-07,2026-06-10,True,3,1,Delayed
+SHP-0273,India,Japan,DHL,Rail,Industrial,1370.55,22.05,61550.32,2026-05-23,2026-05-23,2026-06-03,2026-06-13,True,10,1,Delivered
+SHP-0274,India,China,UPS,Road,Pharmaceuticals,4693.03,35.59,165414.41,2026-05-09,2026-05-10,2026-05-14,2026-05-11,False,-3,0,Delivered
+SHP-0275,France,China,BlueDart,Sea,Consumer Goods,134.44,3.81,2555.56,2026-05-29,2026-05-29,2026-06-16,2026-06-28,False,12,1,Delayed
+SHP-0276,Canada,Germany,Maersk,Rail,Electronics,318.52,2.78,6698.09,2026-05-12,2026-05-14,2026-05-28,,False,0,0,In Transit
+SHP-0277,France,Australia,Maersk,Sea,Perishables,1918.91,22.02,84032.1,2026-05-16,2026-05-17,2026-06-08,2026-06-19,False,11,1,Delayed
+SHP-0278,China,France,FedEx,Rail,Electronics,407.0,45.42,6336.91,2026-06-01,2026-06-02,2026-06-09,2026-06-09,False,0,0,Delivered
+SHP-0279,Germany,Australia,FedEx,Road,Pharmaceuticals,3352.57,48.21,108645.82,2026-04-25,2026-04-27,2026-05-09,2026-05-17,True,8,1,Delivered
+SHP-0280,France,USA,UPS,Sea,Electronics,1374.77,36.81,67710.01,2026-04-28,2026-04-29,2026-05-15,2026-05-20,True,5,1,Delivered
+SHP-0281,China,UAE,FedEx,Rail,Pharmaceuticals,2870.12,23.73,140292.08,2026-05-28,2026-05-28,2026-06-05,2026-06-02,False,-3,0,Delivered
+SHP-0282,India,Japan,FedEx,Air,Industrial,1204.05,13.3,53007.87,2026-05-26,2026-05-28,2026-05-28,2026-05-25,True,-3,0,Delivered
+SHP-0283,China,UAE,BlueDart,Road,Industrial,4314.68,36.42,54825.49,2026-05-25,2026-05-26,2026-05-31,2026-06-14,False,14,1,Delayed
+SHP-0284,France,UAE,Maersk,Rail,Electronics,2345.67,24.75,39010.79,2026-05-13,2026-05-14,2026-05-21,,False,0,0,In Transit
+SHP-0285,France,China,BlueDart,Road,Industrial,2117.65,32.9,67377.85,2026-05-25,2026-05-27,2026-06-01,2026-06-02,True,1,1,Delivered
+SHP-0286,India,France,UPS,Rail,Perishables,1086.68,13.67,18026.12,2026-05-11,2026-05-13,2026-05-23,2026-05-31,False,8,1,Delayed
+SHP-0287,UAE,China,Maersk,Road,Perishables,718.64,33.32,11832.26,2026-04-29,2026-04-30,2026-05-11,2026-05-11,False,0,0,Lost
+SHP-0288,Australia,Canada,FedEx,Road,Pharmaceuticals,3882.86,2.33,48955.81,2026-05-04,2026-05-05,2026-05-09,2026-05-13,False,4,1,Delayed
+SHP-0289,Canada,India,UPS,Air,Electronics,4011.89,19.22,112605.22,2026-05-18,2026-05-20,2026-05-21,,True,-1,0,In Transit
+SHP-0290,Brazil,Germany,FedEx,Air,Pharmaceuticals,1058.49,10.15,14566.35,2026-05-04,2026-05-04,2026-05-09,2026-05-16,False,7,1,Delayed
+SHP-0291,UAE,Australia,Maersk,Air,Electronics,3249.11,10.6,149063.7,2026-05-31,2026-06-01,2026-06-03,2026-06-01,False,-2,0,Delivered
+SHP-0292,Canada,Japan,UPS,Road,Electronics,1652.13,43.0,76403.96,2026-05-05,2026-05-06,2026-05-15,,False,0,0,In Transit
+SHP-0293,Germany,USA,DHL,Sea,Pharmaceuticals,1089.88,10.03,49872.46,2026-05-13,2026-05-15,2026-05-31,2026-06-03,False,3,1,Delivered
+SHP-0294,Japan,Australia,DHL,Road,Industrial,4423.84,40.38,133636.56,2026-05-12,2026-05-12,2026-05-18,2026-05-18,True,0,0,Lost
+SHP-0295,China,France,DHL,Air,Electronics,4421.45,21.95,72906.78,2026-05-07,2026-05-09,2026-05-13,2026-05-10,False,-3,0,Delivered
+SHP-0296,India,USA,FedEx,Air,Industrial,4132.5,11.28,103978.18,2026-05-26,2026-05-28,2026-06-01,2026-05-30,False,-2,0,Delivered
+SHP-0297,USA,UAE,DHL,Sea,Pharmaceuticals,642.67,38.22,31826.7,2026-04-25,2026-04-26,2026-05-21,2026-05-21,False,0,0,Delivered
+SHP-0298,USA,France,UPS,Air,Pharmaceuticals,2521.64,41.58,59027.36,2026-05-14,2026-05-15,2026-05-20,2026-05-20,False,0,0,Delivered
+SHP-0299,China,Germany,Maersk,Air,Perishables,4536.26,37.24,80066.88,2026-04-25,2026-04-27,2026-04-27,2026-05-02,True,5,1,Held at Customs
+SHP-0300,Brazil,UAE,BlueDart,Rail,Pharmaceuticals,4050.36,42.34,81651.19,2026-06-01,2026-06-01,2026-06-09,2026-06-08,True,-1,0,Delivered
+SHP-0301,France,India,DHL,Rail,Pharmaceuticals,3463.0,4.41,58854.58,2026-05-17,2026-05-17,2026-05-30,2026-05-29,False,-1,0,Delivered
+SHP-0302,UAE,Brazil,BlueDart,Air,Perishables,477.68,17.68,21331.02,2026-04-28,2026-04-30,2026-05-04,2026-05-01,False,-3,0,Delivered
+SHP-0303,France,UAE,Maersk,Rail,Pharmaceuticals,3300.5,46.98,148021.42,2026-06-02,2026-06-04,2026-06-11,2026-06-08,False,-3,0,Delivered
+SHP-0304,UAE,Japan,FedEx,Air,Electronics,4383.71,1.01,73485.2,2026-05-21,2026-05-22,2026-05-26,2026-06-09,False,14,1,Delivered
+SHP-0305,Germany,Australia,BlueDart,Road,Electronics,4031.54,24.47,43218.12,2026-05-17,2026-05-18,2026-05-28,2026-06-06,False,9,1,Delayed
+SHP-0306,Japan,USA,FedEx,Air,Pharmaceuticals,1531.87,45.63,61517.56,2026-05-29,2026-05-29,2026-06-03,2026-06-14,False,11,1,Delayed
+SHP-0307,USA,Brazil,UPS,Air,Consumer Goods,3178.37,27.1,112525.63,2026-05-10,2026-05-11,2026-05-16,,False,-2,0,In Transit
+SHP-0308,India,France,Maersk,Rail,Electronics,326.01,28.79,6961.34,2026-04-30,2026-05-01,2026-05-17,2026-05-15,True,-2,0,Delivered
+SHP-0309,Germany,Australia,FedEx,Sea,Perishables,3741.65,3.36,172549.18,2026-06-02,2026-06-03,2026-06-30,2026-07-08,False,8,1,Delayed
+SHP-0310,Germany,Australia,BlueDart,Rail,Perishables,1008.12,4.87,19739.4,2026-05-19,2026-05-19,2026-05-30,2026-06-04,True,5,1,Delayed
+SHP-0311,China,Canada,UPS,Sea,Industrial,411.84,41.74,13985.73,2026-05-11,2026-05-11,2026-06-03,2026-06-06,False,3,1,Delayed
+SHP-0312,Brazil,France,UPS,Rail,Perishables,4163.51,44.07,136858.3,2026-05-28,2026-05-28,2026-06-06,2026-06-16,False,10,1,Delivered
+SHP-0313,UAE,Germany,BlueDart,Road,Consumer Goods,907.64,9.36,43498.04,2026-05-07,2026-05-08,2026-05-15,2026-05-14,True,-1,0,Delivered
+SHP-0314,Germany,Australia,BlueDart,Road,Industrial,745.3,12.48,30907.6,2026-05-29,2026-05-31,2026-06-10,2026-06-09,True,-1,0,Delivered
+SHP-0315,Japan,Australia,BlueDart,Air,Consumer Goods,3743.61,25.81,132389.63,2026-05-27,2026-05-28,2026-05-29,2026-06-10,True,12,1,Held at Customs
+SHP-0316,Canada,India,Maersk,Sea,Industrial,3059.95,45.46,59835.08,2026-04-29,2026-04-30,2026-05-26,,True,0,0,In Transit
+SHP-0317,Brazil,Canada,FedEx,Road,Pharmaceuticals,2401.74,22.93,69582.1,2026-05-30,2026-05-30,2026-06-04,2026-06-18,True,14,1,Delivered
+SHP-0318,Brazil,USA,Maersk,Rail,Consumer Goods,4183.25,42.35,89506.16,2026-05-29,2026-05-31,2026-06-15,2026-06-21,False,6,1,Held at Customs
+SHP-0319,France,UAE,UPS,Air,Electronics,4665.59,20.45,62909.47,2026-05-28,2026-05-28,2026-05-30,2026-05-27,False,-3,0,Delivered
+SHP-0320,UAE,India,UPS,Rail,Perishables,245.37,34.1,2893.93,2026-05-01,2026-05-03,2026-05-15,2026-05-15,False,0,0,Delivered
+SHP-0321,USA,France,FedEx,Sea,Industrial,3676.32,44.23,135427.25,2026-05-14,2026-05-14,2026-06-13,2026-06-23,False,10,1,Delivered
+SHP-0322,UAE,Canada,FedEx,Road,Electronics,4779.8,41.24,48097.24,2026-05-26,2026-05-28,2026-06-06,2026-06-10,False,4,1,Delayed
+SHP-0323,USA,Germany,FedEx,Road,Perishables,3464.29,6.61,87832.07,2026-06-03,2026-06-05,2026-06-12,2026-06-24,True,12,1,Held at Customs
+SHP-0324,France,Canada,DHL,Rail,Industrial,2792.96,45.12,73090.62,2026-05-01,2026-05-03,2026-05-20,2026-05-29,False,9,1,Delayed
+SHP-0325,USA,India,BlueDart,Air,Pharmaceuticals,3267.61,44.51,110927.83,2026-06-01,2026-06-02,2026-06-04,2026-06-01,True,-3,0,Delivered
+SHP-0326,Canada,Germany,BlueDart,Rail,Industrial,856.18,9.42,30407.3,2026-04-25,2026-04-25,2026-05-09,2026-05-11,False,2,1,Held at Customs
+SHP-0327,Germany,Australia,Maersk,Air,Consumer Goods,157.36,21.68,3430.7,2026-05-12,2026-05-12,2026-05-18,2026-05-15,False,-3,0,Delivered
+SHP-0328,Brazil,India,FedEx,Sea,Perishables,4059.31,11.59,116357.33,2026-05-26,2026-05-26,2026-06-20,2026-06-19,True,-1,0,Delivered
+SHP-0329,Canada,Germany,BlueDart,Road,Pharmaceuticals,480.31,27.58,21359.24,2026-05-15,2026-05-16,2026-05-21,2026-05-24,False,3,1,Held at Customs
+SHP-0330,Australia,UAE,BlueDart,Rail,Consumer Goods,4302.06,45.92,117185.57,2026-05-30,2026-06-01,2026-06-13,2026-06-20,True,7,1,Delayed
+SHP-0331,Australia,Germany,BlueDart,Air,Pharmaceuticals,2607.24,9.12,93416.42,2026-05-26,2026-05-26,2026-05-28,2026-06-10,True,13,1,Delayed
+SHP-0332,Germany,Brazil,FedEx,Rail,Industrial,2634.47,19.57,27051.83,2026-04-29,2026-05-01,2026-05-06,2026-05-04,False,-2,0,Delivered
+SHP-0333,Australia,UAE,FedEx,Sea,Industrial,4250.98,27.02,185635.77,2026-05-27,2026-05-28,2026-06-14,2026-06-16,True,2,1,Delayed
+SHP-0334,Australia,India,BlueDart,Air,Industrial,2479.39,2.35,74922.71,2026-05-31,2026-06-02,2026-06-06,2026-06-20,False,14,1,Delivered
+SHP-0335,Canada,Australia,Maersk,Rail,Industrial,251.68,20.01,4127.8,2026-05-05,2026-05-06,2026-05-21,2026-05-18,False,-3,0,Delivered
+SHP-0336,USA,India,FedEx,Road,Electronics,4193.85,19.15,104813.3,2026-05-16,2026-05-18,2026-05-29,2026-06-11,False,13,1,Delayed
+SHP-0337,Australia,Canada,UPS,Air,Consumer Goods,1513.19,48.1,38706.3,2026-04-29,2026-04-29,2026-05-04,2026-05-05,False,1,1,Held at Customs
+SHP-0338,India,Canada,UPS,Sea,Industrial,2708.06,9.25,53826.21,2026-05-22,2026-05-24,2026-06-08,2026-06-21,True,13,1,Delayed
+SHP-0339,India,Canada,BlueDart,Road,Electronics,1053.66,3.82,24969.55,2026-05-28,2026-05-28,2026-06-08,2026-06-11,True,3,1,Delivered
+SHP-0340,China,Japan,UPS,Road,Consumer Goods,909.69,29.57,45474.09,2026-05-15,2026-05-15,2026-05-23,2026-05-20,True,-3,0,Delivered
+SHP-0341,China,Japan,DHL,Road,Consumer Goods,4969.86,44.14,173628.21,2026-05-08,2026-05-08,2026-05-17,2026-05-22,True,5,1,Delayed
+SHP-0342,Japan,France,UPS,Road,Consumer Goods,825.12,42.78,31713.81,2026-05-31,2026-06-01,2026-06-10,2026-06-09,True,-1,0,Delivered
+SHP-0343,Brazil,India,BlueDart,Sea,Pharmaceuticals,4362.85,7.4,181583.53,2026-05-08,2026-05-08,2026-06-11,2026-06-23,False,12,1,Delivered
+SHP-0344,Brazil,Canada,FedEx,Road,Industrial,4851.08,47.51,148036.03,2026-05-22,2026-05-23,2026-06-01,2026-06-02,True,1,1,Held at Customs
+SHP-0345,USA,Australia,UPS,Road,Perishables,2857.29,22.62,97805.64,2026-05-13,2026-05-13,2026-05-18,2026-05-23,False,5,1,Delayed
+SHP-0346,India,Germany,Maersk,Road,Electronics,4905.62,20.97,211435.93,2026-05-31,2026-06-02,2026-06-07,2026-06-07,False,0,0,Delivered
+SHP-0347,Brazil,China,Maersk,Road,Perishables,4284.41,22.52,187994.57,2026-04-26,2026-04-28,2026-05-07,2026-05-07,False,0,0,Delivered
+SHP-0348,Germany,Canada,BlueDart,Air,Electronics,4653.36,2.5,208851.79,2026-04-28,2026-04-29,2026-05-01,2026-05-09,False,8,1,Delayed
+SHP-0349,Germany,Canada,Maersk,Air,Industrial,3691.95,26.9,154086.34,2026-05-08,2026-05-10,2026-05-12,2026-05-13,True,1,1,Delivered
+SHP-0350,Japan,Germany,BlueDart,Air,Perishables,540.08,1.11,6354.84,2026-06-03,2026-06-03,2026-06-09,2026-06-17,False,8,1,Held at Customs
+SHP-0351,Germany,India,Maersk,Road,Pharmaceuticals,4691.75,41.27,198776.91,2026-05-02,2026-05-02,2026-05-08,2026-05-15,True,7,1,Delivered
+SHP-0352,India,Japan,Maersk,Air,Pharmaceuticals,2489.38,4.8,65474.98,2026-04-30,2026-05-01,2026-05-04,2026-05-02,False,-2,0,Delivered
+SHP-0353,France,USA,Maersk,Sea,Industrial,4060.35,47.44,52348.71,2026-05-29,2026-05-29,2026-06-18,2026-06-19,False,1,1,Delayed
+SHP-0354,USA,Germany,BlueDart,Road,Perishables,2553.06,39.93,97739.97,2026-05-26,2026-05-27,2026-06-07,2026-06-09,True,2,1,Held at Customs
+SHP-0355,Germany,USA,UPS,Air,Consumer Goods,1476.92,40.37,69665.02,2026-05-24,2026-05-25,2026-05-28,2026-05-25,False,-3,0,Delivered
+SHP-0356,China,Germany,Maersk,Rail,Pharmaceuticals,2790.0,11.74,31657.48,2026-05-24,2026-05-26,2026-06-08,2026-06-14,True,6,1,Delayed
+SHP-0357,USA,Australia,BlueDart,Rail,Perishables,1020.43,36.27,45590.1,2026-04-25,2026-04-26,2026-05-07,2026-05-07,True,0,0,Delivered
+SHP-0358,USA,Japan,UPS,Road,Electronics,3221.75,26.79,91906.57,2026-05-09,2026-05-10,2026-05-19,2026-05-16,False,-3,0,Delivered
+SHP-0359,UAE,Canada,FedEx,Rail,Perishables,4592.28,36.31,119664.83,2026-05-18,2026-05-20,2026-05-26,2026-06-06,True,11,1,Delayed
+SHP-0360,USA,Japan,Maersk,Air,Consumer Goods,1430.58,20.72,20185.38,2026-04-27,2026-04-27,2026-04-30,2026-04-27,True,-3,0,Lost
+SHP-0361,France,Germany,Maersk,Rail,Perishables,407.18,42.13,4134.02,2026-05-06,2026-05-06,2026-05-13,2026-05-24,True,11,1,Delivered
+SHP-0362,USA,India,UPS,Air,Electronics,1424.93,42.29,32109.25,2026-05-12,2026-05-13,2026-05-16,2026-05-22,True,6,1,Delivered
+SHP-0363,Brazil,UAE,BlueDart,Rail,Industrial,1948.86,48.24,26449.11,2026-05-25,2026-05-26,2026-06-08,2026-06-07,True,-1,0,Delivered
+SHP-0364,Canada,Germany,BlueDart,Air,Perishables,121.38,9.18,4675.78,2026-05-03,2026-05-03,2026-05-09,2026-05-20,True,11,1,Delivered
+SHP-0365,Germany,UAE,BlueDart,Rail,Consumer Goods,4758.79,35.42,104322.61,2026-06-02,2026-06-02,2026-06-20,2026-06-17,True,-3,0,Delivered
+SHP-0366,Brazil,China,DHL,Sea,Electronics,336.11,18.64,16224.7,2026-05-10,2026-05-10,2026-06-08,2026-06-08,True,0,0,Delivered
+SHP-0367,UAE,India,BlueDart,Sea,Electronics,114.12,43.09,1990.36,2026-05-21,2026-05-21,2026-06-08,2026-06-17,True,9,1,Delivered
+SHP-0368,Germany,Canada,BlueDart,Road,Pharmaceuticals,4361.84,36.79,156627.25,2026-05-11,2026-05-11,2026-05-17,2026-05-25,False,8,1,Delivered
+SHP-0369,USA,India,BlueDart,Rail,Perishables,4660.96,7.16,184032.7,2026-05-24,2026-05-25,2026-06-11,2026-06-19,False,8,1,Delivered
+SHP-0370,UAE,USA,Maersk,Rail,Consumer Goods,2393.96,29.38,32111.75,2026-05-24,2026-05-26,2026-05-31,2026-06-06,False,6,1,Delivered
+SHP-0371,Germany,Brazil,FedEx,Road,Electronics,3931.88,27.65,55025.37,2026-05-07,2026-05-08,2026-05-17,2026-05-15,True,-2,0,Delivered
+SHP-0372,Canada,India,DHL,Air,Pharmaceuticals,194.71,7.09,5168.71,2026-04-30,2026-04-30,2026-05-04,2026-05-16,False,12,1,Delayed
+SHP-0373,Germany,China,DHL,Rail,Pharmaceuticals,3016.15,1.49,86152.72,2026-05-19,2026-05-20,2026-05-29,2026-06-05,False,7,1,Delivered
+SHP-0374,France,Japan,DHL,Road,Electronics,3892.56,38.87,120092.65,2026-04-29,2026-04-30,2026-05-12,2026-05-09,True,-3,0,Delivered
+SHP-0375,Canada,India,Maersk,Air,Industrial,1401.36,1.86,30454.84,2026-05-11,2026-05-11,2026-05-14,2026-05-12,False,-2,0,Delivered
+SHP-0376,Canada,Australia,DHL,Road,Pharmaceuticals,2896.18,28.84,105769.34,2026-04-28,2026-04-28,2026-05-05,2026-05-16,False,11,1,Delivered
+SHP-0377,China,Canada,BlueDart,Rail,Pharmaceuticals,4165.84,30.7,90172.81,2026-05-20,2026-05-20,2026-05-29,2026-05-26,True,-3,0,Delivered
+SHP-0378,Brazil,India,FedEx,Road,Electronics,1218.35,13.08,35774.51,2026-05-26,2026-05-28,2026-06-09,,True,-2,0,In Transit
+SHP-0379,Brazil,Japan,DHL,Sea,Consumer Goods,4952.02,12.72,154649.08,2026-05-10,2026-05-11,2026-06-08,2026-06-05,False,-3,0,Delivered
+SHP-0380,India,China,BlueDart,Air,Electronics,1204.37,10.6,18826.85,2026-04-26,2026-04-27,2026-04-28,2026-04-25,False,-3,0,Delivered
+SHP-0381,France,Canada,DHL,Air,Consumer Goods,4074.51,32.16,104008.5,2026-05-02,2026-05-04,2026-05-06,2026-05-12,False,6,1,Delayed
+SHP-0382,UAE,India,Maersk,Sea,Pharmaceuticals,1523.47,24.03,69478.83,2026-05-22,2026-05-22,2026-06-22,2026-06-26,False,4,1,Delivered
+SHP-0383,Brazil,France,BlueDart,Rail,Perishables,3191.52,22.94,49056.83,2026-05-25,2026-05-26,2026-06-05,2026-06-19,True,14,1,Delayed
+SHP-0384,UAE,USA,FedEx,Air,Pharmaceuticals,473.57,14.46,20021.89,2026-05-09,2026-05-10,2026-05-12,2026-05-25,False,13,1,Delayed
+SHP-0385,Canada,France,FedEx,Rail,Perishables,2458.53,44.99,90901.59,2026-05-07,2026-05-07,2026-05-24,2026-06-05,True,12,1,Delayed
+SHP-0386,Japan,India,FedEx,Road,Pharmaceuticals,3329.66,6.34,118074.89,2026-05-16,2026-05-18,2026-05-25,2026-05-27,True,2,1,Delivered
+SHP-0387,Brazil,UAE,DHL,Road,Perishables,3008.45,4.58,104976.04,2026-05-19,2026-05-20,2026-05-26,2026-05-25,True,-1,0,Delivered
+SHP-0388,Brazil,Canada,UPS,Sea,Electronics,1839.7,35.22,47479.41,2026-05-25,2026-05-26,2026-06-16,2026-06-30,True,14,1,Delayed
+SHP-0389,India,Japan,FedEx,Sea,Industrial,3619.82,13.12,128954.67,2026-05-25,2026-05-27,2026-06-28,2026-07-04,True,6,1,Held at Customs
+SHP-0390,Japan,USA,DHL,Air,Pharmaceuticals,4290.51,30.55,186278.13,2026-05-07,2026-05-07,2026-05-12,,False,-2,0,In Transit
+SHP-0391,USA,Brazil,DHL,Air,Industrial,1676.18,42.55,65629.92,2026-05-24,2026-05-26,2026-05-30,2026-06-08,False,9,1,Delivered
+SHP-0392,Brazil,Canada,DHL,Rail,Industrial,853.65,49.51,41140.71,2026-05-23,2026-05-23,2026-06-01,2026-06-05,True,4,1,Delivered
+SHP-0393,Japan,France,Maersk,Sea,Electronics,544.54,2.6,6702.26,2026-05-19,2026-05-21,2026-06-16,2026-06-29,True,13,1,Held at Customs
+SHP-0394,Australia,Brazil,UPS,Rail,Electronics,1329.91,28.64,32374.18,2026-05-10,2026-05-10,2026-05-26,2026-06-08,False,13,1,Delayed
+SHP-0395,China,UAE,FedEx,Air,Industrial,4874.42,2.35,212488.87,2026-05-16,2026-05-16,2026-05-18,2026-05-15,False,-3,0,Delivered
+SHP-0396,Australia,France,UPS,Road,Industrial,826.07,34.3,15691.7,2026-05-04,2026-05-04,2026-05-13,2026-05-25,True,12,1,Delayed
+SHP-0397,China,India,BlueDart,Air,Industrial,3818.0,14.84,92097.86,2026-05-06,2026-05-08,2026-05-09,2026-05-23,True,14,1,Delivered
+SHP-0398,USA,Japan,FedEx,Road,Consumer Goods,3923.79,24.34,117327.58,2026-05-30,2026-05-30,2026-06-12,,True,0,0,In Transit
+SHP-0399,China,Australia,BlueDart,Sea,Pharmaceuticals,4289.65,11.15,55106.27,2026-05-10,2026-05-11,2026-05-29,2026-06-06,False,8,1,Delivered
+SHP-0400,France,India,BlueDart,Sea,Consumer Goods,4151.06,3.33,162181.79,2026-04-28,2026-04-28,2026-05-16,2026-05-13,False,-3,0,Delivered
+SHP-0401,Germany,Canada,DHL,Air,Electronics,2370.14,3.22,51197.79,2026-05-18,2026-05-18,2026-05-24,2026-06-02,True,9,1,Delayed
+SHP-0402,Australia,India,BlueDart,Sea,Pharmaceuticals,400.52,18.75,15590.29,2026-05-07,2026-05-09,2026-06-10,2026-06-16,True,6,1,Delivered
+SHP-0403,France,India,DHL,Sea,Consumer Goods,3673.79,48.38,69698.19,2026-04-28,2026-04-30,2026-05-27,,True,-3,0,In Transit
+SHP-0404,Canada,France,DHL,Road,Industrial,2170.88,15.84,49955.87,2026-06-01,2026-06-01,2026-06-14,2026-06-13,False,-1,0,Delivered
+SHP-0405,Germany,China,Maersk,Rail,Perishables,4052.8,49.26,162800.69,2026-04-26,2026-04-26,2026-05-13,2026-05-20,False,7,1,Delayed
+SHP-0406,UAE,Germany,Maersk,Road,Perishables,2768.04,35.76,46206.48,2026-05-09,2026-05-11,2026-05-23,2026-06-01,True,9,1,Delivered
+SHP-0407,UAE,Brazil,UPS,Air,Pharmaceuticals,1872.38,47.51,66069.51,2026-05-14,2026-05-16,2026-05-20,2026-05-17,True,-3,0,Delivered
+SHP-0408,USA,Canada,FedEx,Road,Electronics,3571.6,9.43,174639.81,2026-05-13,2026-05-15,2026-05-24,2026-05-30,False,6,1,Delayed
+SHP-0409,USA,Brazil,Maersk,Air,Perishables,4612.87,35.04,180636.49,2026-05-10,2026-05-11,2026-05-12,2026-05-21,True,9,1,Delayed
+SHP-0410,USA,India,DHL,Rail,Industrial,1056.68,17.92,24752.11,2026-05-10,2026-05-10,2026-05-28,,True,0,0,In Transit
+SHP-0411,Australia,Brazil,BlueDart,Rail,Electronics,2854.16,47.41,85197.68,2026-05-28,2026-05-30,2026-06-07,2026-06-05,True,-2,0,Delivered
+SHP-0412,USA,India,BlueDart,Air,Perishables,178.7,39.33,2676.09,2026-05-03,2026-05-04,2026-05-06,2026-05-13,True,7,1,Delayed
+SHP-0413,Germany,Australia,FedEx,Air,Consumer Goods,1251.37,35.54,53414.89,2026-05-23,2026-05-23,2026-05-25,2026-05-22,True,-3,0,Delivered
+SHP-0414,UAE,Australia,DHL,Rail,Pharmaceuticals,2573.5,36.2,114535.21,2026-06-03,2026-06-03,2026-06-18,2026-06-18,False,0,0,Delivered
+SHP-0415,USA,Brazil,FedEx,Sea,Industrial,3418.05,31.63,77459.8,2026-05-04,2026-05-05,2026-05-23,2026-05-21,False,-2,0,Delivered
+SHP-0416,Japan,China,DHL,Air,Industrial,3161.88,29.02,136951.19,2026-05-05,2026-05-07,2026-05-09,2026-05-09,False,0,0,Delivered
+SHP-0417,France,India,Maersk,Air,Perishables,1015.88,1.97,26034.25,2026-05-18,2026-05-18,2026-05-22,2026-05-19,False,-3,0,Delivered
+SHP-0418,India,Japan,FedEx,Road,Electronics,2209.65,44.02,75614.64,2026-05-16,2026-05-18,2026-05-29,2026-06-04,True,6,1,Delayed
+SHP-0419,Brazil,Canada,Maersk,Road,Electronics,1729.04,3.77,43151.38,2026-05-14,2026-05-14,2026-05-24,2026-05-23,False,-1,0,Delivered
+SHP-0420,Brazil,France,FedEx,Rail,Electronics,669.34,39.27,27717.87,2026-05-19,2026-05-19,2026-06-03,2026-06-12,False,9,1,Delayed
+SHP-0421,Japan,India,FedEx,Air,Electronics,156.26,23.06,7669.89,2026-05-17,2026-05-18,2026-05-20,2026-05-18,False,-2,0,Lost
+SHP-0422,UAE,China,UPS,Air,Industrial,3552.32,21.71,84761.79,2026-05-31,2026-06-02,2026-06-04,2026-06-01,False,-3,0,Lost
+SHP-0423,Australia,China,Maersk,Road,Electronics,3726.79,31.9,119198.59,2026-05-14,2026-05-15,2026-05-25,2026-06-05,True,11,1,Held at Customs
+SHP-0424,Canada,Germany,DHL,Rail,Pharmaceuticals,470.36,47.62,10296.95,2026-05-19,2026-05-20,2026-05-29,2026-05-28,True,-1,0,Lost
+SHP-0425,China,Germany,DHL,Rail,Electronics,3277.67,14.1,34757.81,2026-05-28,2026-05-30,2026-06-04,2026-06-04,False,0,0,Delivered
+SHP-0426,Germany,France,BlueDart,Air,Electronics,3089.04,16.33,64387.49,2026-04-27,2026-04-28,2026-05-03,2026-05-13,False,10,1,Held at Customs
+SHP-0427,Japan,UAE,Maersk,Air,Consumer Goods,2300.52,31.0,42613.45,2026-05-13,2026-05-15,2026-05-19,2026-05-16,False,-3,0,Delivered
+SHP-0428,Germany,China,UPS,Air,Electronics,2099.94,1.75,69963.79,2026-05-12,2026-05-12,2026-05-14,,True,-2,0,In Transit
+SHP-0429,Canada,France,Maersk,Road,Industrial,2055.27,42.15,36052.77,2026-05-04,2026-05-05,2026-05-10,2026-05-08,False,-2,0,Delivered
+SHP-0430,Japan,Australia,FedEx,Rail,Electronics,1702.52,44.61,22766.19,2026-05-29,2026-05-29,2026-06-17,2026-06-28,False,11,1,Held at Customs
+SHP-0431,India,Canada,BlueDart,Road,Electronics,3644.89,1.44,122388.7,2026-05-01,2026-05-01,2026-05-15,2026-05-19,False,4,1,Delayed
+SHP-0432,Australia,USA,FedEx,Sea,Perishables,1099.72,33.05,46996.3,2026-05-21,2026-05-23,2026-06-19,,False,-2,0,In Transit
+SHP-0433,France,Japan,Maersk,Air,Pharmaceuticals,1426.95,13.13,17838.38,2026-05-04,2026-05-04,2026-05-07,2026-05-18,False,11,1,Delivered
+SHP-0434,Canada,France,DHL,Sea,Electronics,3014.54,19.24,70303.28,2026-05-17,2026-05-18,2026-06-04,2026-06-14,False,10,1,Delayed
+SHP-0435,Canada,India,FedEx,Sea,Pharmaceuticals,2616.69,13.41,129542.86,2026-04-30,2026-05-02,2026-05-31,2026-05-29,True,-2,0,Delivered
+SHP-0436,India,Brazil,FedEx,Road,Perishables,4018.62,17.35,179261.53,2026-05-29,2026-05-29,2026-06-04,2026-06-03,False,-1,0,Delivered
+SHP-0437,USA,India,FedEx,Road,Industrial,2326.29,31.88,46375.39,2026-05-19,2026-05-20,2026-05-27,2026-05-27,True,0,0,Lost
+SHP-0438,Australia,UAE,BlueDart,Road,Pharmaceuticals,807.5,39.42,21621.28,2026-05-03,2026-05-05,2026-05-11,2026-05-11,False,0,0,Delivered
+SHP-0439,USA,France,DHL,Rail,Electronics,2097.4,24.01,23349.2,2026-05-06,2026-05-08,2026-05-14,2026-05-23,True,9,1,Delivered
+SHP-0440,China,Japan,BlueDart,Rail,Consumer Goods,1375.16,8.82,22578.07,2026-06-03,2026-06-03,2026-06-11,2026-06-18,True,7,1,Delayed
+SHP-0441,Germany,China,UPS,Air,Pharmaceuticals,3630.77,41.5,101109.86,2026-05-13,2026-05-13,2026-05-15,2026-05-22,False,7,1,Delivered
+SHP-0442,Japan,Australia,Maersk,Road,Industrial,1348.92,37.38,17624.22,2026-05-24,2026-05-24,2026-06-04,2026-06-08,False,4,1,Delayed
+SHP-0443,Canada,Brazil,UPS,Air,Electronics,3197.86,19.3,66707.2,2026-05-12,2026-05-12,2026-05-14,2026-05-11,False,-3,0,Delivered
+SHP-0444,UAE,Japan,BlueDart,Air,Industrial,2565.35,10.5,113780.12,2026-06-03,2026-06-04,2026-06-05,2026-06-19,False,14,1,Held at Customs
+SHP-0445,Japan,France,BlueDart,Sea,Pharmaceuticals,2252.13,30.92,36967.85,2026-06-03,2026-06-03,2026-07-01,2026-07-14,True,13,1,Delivered
+SHP-0446,UAE,Brazil,BlueDart,Sea,Electronics,909.89,1.1,35257.86,2026-05-31,2026-06-01,2026-07-02,2026-07-03,False,1,1,Delayed
+SHP-0447,Brazil,Australia,Maersk,Air,Consumer Goods,1791.63,21.3,70404.89,2026-04-30,2026-05-02,2026-05-03,2026-05-01,True,-2,0,Delivered
+SHP-0448,China,UAE,Maersk,Road,Consumer Goods,2644.2,30.78,52392.42,2026-04-26,2026-04-28,2026-05-08,2026-05-19,True,11,1,Delivered
+SHP-0449,Canada,Germany,BlueDart,Air,Industrial,2828.7,21.37,76821.19,2026-06-03,2026-06-05,2026-06-07,2026-06-08,False,1,1,Delivered
+SHP-0450,Canada,Germany,BlueDart,Air,Pharmaceuticals,1097.97,17.05,34989.46,2026-05-01,2026-05-01,2026-05-04,2026-05-17,False,13,1,Delayed
+SHP-0451,France,Brazil,BlueDart,Road,Industrial,1752.31,8.0,66032.2,2026-05-25,2026-05-27,2026-06-08,2026-06-07,False,-1,0,Delivered
+SHP-0452,UAE,USA,Maersk,Sea,Consumer Goods,1101.15,25.88,29478.74,2026-04-26,2026-04-26,2026-05-21,2026-06-03,False,13,1,Held at Customs
+SHP-0453,Brazil,India,FedEx,Sea,Pharmaceuticals,2099.78,44.4,39635.49,2026-05-11,2026-05-12,2026-06-10,2026-06-22,False,12,1,Delayed
+SHP-0454,Germany,USA,Maersk,Road,Pharmaceuticals,3516.65,37.88,100583.96,2026-05-07,2026-05-08,2026-05-14,2026-05-23,True,9,1,Delayed
+SHP-0455,Japan,China,FedEx,Sea,Industrial,2704.73,26.02,115827.22,2026-05-06,2026-05-06,2026-06-04,2026-06-01,True,-3,0,Delivered
+SHP-0456,Brazil,Australia,Maersk,Rail,Industrial,2107.72,32.74,22384.69,2026-05-09,2026-05-10,2026-05-23,2026-05-27,True,4,1,Held at Customs
+SHP-0457,France,India,BlueDart,Sea,Electronics,4254.85,27.73,209629.2,2026-05-24,2026-05-25,2026-06-20,2026-07-03,True,13,1,Delayed
+SHP-0458,France,Japan,FedEx,Air,Industrial,2839.39,16.74,53393.18,2026-05-05,2026-05-06,2026-05-09,2026-05-07,False,-2,0,Delivered
+SHP-0459,India,France,BlueDart,Rail,Consumer Goods,1814.73,46.54,45675.05,2026-05-25,2026-05-26,2026-06-13,2026-06-21,False,8,1,Delayed
+SHP-0460,Germany,Brazil,Maersk,Road,Pharmaceuticals,2787.25,4.26,113331.26,2026-05-25,2026-05-26,2026-06-05,2026-06-09,False,4,1,Delayed
+SHP-0461,China,Germany,FedEx,Air,Consumer Goods,787.59,33.89,27423.06,2026-05-16,2026-05-16,2026-05-20,2026-05-18,True,-2,0,Delivered
+SHP-0462,India,Australia,BlueDart,Air,Consumer Goods,3774.89,45.5,152311.58,2026-04-28,2026-04-30,2026-05-04,2026-05-01,True,-3,0,Delivered
+SHP-0463,India,USA,DHL,Rail,Industrial,3198.72,8.67,92624.85,2026-05-03,2026-05-03,2026-05-17,2026-05-28,False,11,1,Delayed
+SHP-0464,Germany,Japan,DHL,Road,Industrial,1008.33,30.39,44830.9,2026-05-09,2026-05-10,2026-05-14,2026-05-12,False,-2,0,Delivered
+SHP-0465,Germany,Australia,DHL,Air,Perishables,754.89,22.75,21160.36,2026-05-24,2026-05-25,2026-05-26,2026-06-01,True,6,1,Delayed
+SHP-0466,UAE,China,BlueDart,Sea,Perishables,3766.34,12.03,117317.64,2026-05-09,2026-05-09,2026-06-06,2026-06-12,False,6,1,Delayed
+SHP-0467,Canada,Australia,FedEx,Rail,Perishables,409.39,39.06,17548.88,2026-05-11,2026-05-13,2026-05-29,2026-05-30,True,1,1,Held at Customs
+SHP-0468,USA,Canada,FedEx,Air,Consumer Goods,2218.5,2.53,45219.81,2026-05-09,2026-05-10,2026-05-15,2026-05-23,True,8,1,Delivered
+SHP-0469,China,Canada,BlueDart,Road,Industrial,4304.79,39.4,116915.5,2026-05-11,2026-05-12,2026-05-22,2026-06-04,True,13,1,Delivered
+SHP-0470,Japan,Brazil,BlueDart,Rail,Electronics,4144.54,42.4,82726.47,2026-05-31,2026-06-01,2026-06-18,2026-06-29,True,11,1,Delayed
+SHP-0471,Germany,China,BlueDart,Road,Industrial,4674.5,40.27,172817.92,2026-05-14,2026-05-16,2026-05-19,,False,0,0,In Transit
+SHP-0472,USA,Brazil,BlueDart,Sea,Electronics,4469.38,42.61,117278.64,2026-05-09,2026-05-10,2026-06-08,2026-06-14,False,6,1,Delayed
+SHP-0473,Brazil,Canada,Maersk,Sea,Electronics,170.47,38.45,5957.88,2026-05-08,2026-05-10,2026-05-25,2026-05-30,True,5,1,Delivered
+SHP-0474,Germany,USA,Maersk,Rail,Consumer Goods,2071.44,20.14,26458.78,2026-05-27,2026-05-27,2026-06-12,2026-06-09,True,-3,0,Delivered
+SHP-0475,France,India,FedEx,Rail,Industrial,2007.23,12.21,67993.06,2026-05-24,2026-05-26,2026-06-02,2026-06-07,False,5,1,Delayed
+SHP-0476,USA,France,BlueDart,Air,Consumer Goods,4907.48,32.83,206980.64,2026-06-03,2026-06-04,2026-06-05,2026-06-04,True,-1,0,Lost
+SHP-0477,France,UAE,UPS,Air,Industrial,4331.84,6.39,203604.65,2026-04-27,2026-04-27,2026-04-29,2026-04-27,True,-2,0,Delivered
+SHP-0478,Brazil,Germany,UPS,Air,Electronics,865.41,32.16,29399.78,2026-05-20,2026-05-22,2026-05-25,2026-05-23,True,-2,0,Delivered
+SHP-0479,Australia,Canada,FedEx,Air,Industrial,931.67,1.94,38351.36,2026-05-06,2026-05-08,2026-05-10,2026-05-14,False,4,1,Delivered
+SHP-0480,India,UAE,FedEx,Rail,Industrial,4808.51,27.26,142042.55,2026-05-26,2026-05-27,2026-06-06,2026-06-03,True,-3,0,Delivered
+SHP-0481,UAE,Australia,DHL,Rail,Industrial,1457.36,46.14,48570.36,2026-05-13,2026-05-15,2026-05-29,2026-06-12,False,14,1,Delivered
+SHP-0482,India,Germany,Maersk,Rail,Electronics,4586.79,31.2,91054.39,2026-05-09,2026-05-10,2026-05-26,2026-05-31,True,5,1,Delivered
+SHP-0483,UAE,Japan,UPS,Sea,Industrial,4020.36,44.34,60340.87,2026-05-29,2026-05-31,2026-06-17,,False,-1,0,In Transit
+SHP-0484,China,Canada,BlueDart,Rail,Perishables,3054.89,31.33,145507.26,2026-05-25,2026-05-25,2026-06-07,2026-06-19,True,12,1,Delayed
+SHP-0485,China,India,BlueDart,Road,Perishables,4103.17,42.77,194976.93,2026-05-07,2026-05-09,2026-05-13,2026-05-25,False,12,1,Delivered
+SHP-0486,India,China,Maersk,Sea,Industrial,923.78,24.27,11278.34,2026-05-31,2026-06-01,2026-06-29,2026-07-02,True,3,1,Delayed
+SHP-0487,Brazil,China,Maersk,Sea,Perishables,4927.99,9.14,71836.6,2026-04-30,2026-05-02,2026-05-28,2026-06-11,False,14,1,Delayed
+SHP-0488,UAE,USA,Maersk,Rail,Consumer Goods,200.55,41.5,4938.31,2026-05-06,2026-05-06,2026-05-22,2026-05-20,True,-2,0,Lost
+SHP-0489,India,UAE,DHL,Rail,Consumer Goods,4501.37,39.06,58784.28,2026-05-18,2026-05-20,2026-05-30,2026-05-28,True,-2,0,Delivered
+SHP-0490,Germany,China,DHL,Rail,Consumer Goods,2576.99,8.06,90091.41,2026-05-03,2026-05-04,2026-05-19,2026-05-16,False,-3,0,Delivered
+SHP-0491,Brazil,Australia,UPS,Sea,Perishables,3604.41,14.81,88496.86,2026-05-17,2026-05-18,2026-06-16,2026-06-28,False,12,1,Delivered
+SHP-0492,Australia,Germany,FedEx,Rail,Consumer Goods,3907.54,43.25,88134.64,2026-05-08,2026-05-10,2026-05-22,,False,0,0,In Transit
+SHP-0493,Canada,France,UPS,Sea,Pharmaceuticals,177.53,26.62,5119.02,2026-04-30,2026-04-30,2026-05-26,2026-06-07,False,12,1,Held at Customs
+SHP-0494,Germany,China,UPS,Road,Electronics,1870.88,43.13,49152.12,2026-05-25,2026-05-27,2026-05-30,2026-05-27,False,-3,0,Delivered
+SHP-0495,Brazil,UAE,BlueDart,Rail,Electronics,2599.73,37.08,79333.05,2026-05-21,2026-05-22,2026-06-05,2026-06-18,True,13,1,Delayed
+SHP-0496,India,USA,FedEx,Road,Pharmaceuticals,3342.17,7.92,109740.48,2026-05-21,2026-05-21,2026-05-31,2026-05-31,False,0,0,Delivered
+SHP-0497,India,France,FedEx,Air,Perishables,1499.97,46.43,73194.13,2026-05-24,2026-05-25,2026-05-26,2026-05-25,True,-1,0,Delivered
+SHP-0498,Canada,China,UPS,Rail,Pharmaceuticals,4480.53,17.54,175540.67,2026-05-11,2026-05-11,2026-05-26,2026-06-09,False,14,1,Held at Customs
+SHP-0499,India,Australia,Maersk,Rail,Perishables,2648.36,26.58,88871.87,2026-05-10,2026-05-10,2026-05-17,2026-05-17,True,0,0,Delivered
+SHP-0500,Japan,China,UPS,Rail,Pharmaceuticals,1945.0,12.37,40095.79,2026-05-05,2026-05-05,2026-05-21,,False,0,0,In Transit
+SHP-0501,Canada,China,FedEx,Road,Industrial,4611.62,2.96,99880.48,2026-04-28,2026-04-30,2026-05-09,2026-05-10,True,1,1,Delayed
+SHP-0502,Germany,UAE,DHL,Rail,Electronics,3885.33,35.42,134471.84,2026-05-07,2026-05-08,2026-05-26,2026-05-28,False,2,1,Delayed
+SHP-0503,UAE,Japan,DHL,Road,Industrial,2049.54,41.55,34490.34,2026-04-25,2026-04-25,2026-05-06,2026-05-06,True,0,0,Delivered
+SHP-0504,France,India,UPS,Road,Industrial,1211.03,33.83,34796.78,2026-05-15,2026-05-17,2026-05-20,2026-05-20,False,0,0,Delivered
+SHP-0505,France,UAE,FedEx,Sea,Consumer Goods,4649.08,49.82,194518.88,2026-05-03,2026-05-05,2026-06-02,2026-06-03,True,1,1,Delayed
+SHP-0506,Canada,Brazil,DHL,Road,Pharmaceuticals,3889.57,45.83,68322.49,2026-05-28,2026-05-30,2026-06-09,2026-06-07,False,-2,0,Delivered
+SHP-0507,Japan,China,UPS,Rail,Consumer Goods,372.07,28.85,13417.08,2026-05-12,2026-05-12,2026-05-26,2026-05-24,True,-2,0,Delivered
+SHP-0508,France,Canada,FedEx,Sea,Electronics,1892.84,16.58,75670.14,2026-05-13,2026-05-15,2026-06-13,2026-06-12,False,-1,0,Delivered
+SHP-0509,USA,Australia,BlueDart,Road,Electronics,1533.33,17.28,33351.52,2026-06-01,2026-06-03,2026-06-11,2026-06-11,False,0,0,Delivered
+SHP-0510,Canada,Australia,Maersk,Air,Perishables,1655.99,42.56,79299.5,2026-05-13,2026-05-15,2026-05-18,2026-05-15,True,-3,0,Delivered
+SHP-0511,USA,Germany,FedEx,Air,Electronics,1479.92,48.2,15408.01,2026-05-06,2026-05-06,2026-05-08,2026-05-22,True,14,1,Delivered
+SHP-0512,Brazil,USA,FedEx,Rail,Electronics,3992.96,14.63,62650.38,2026-05-04,2026-05-06,2026-05-12,2026-05-12,True,0,0,Delivered
+SHP-0513,France,India,DHL,Air,Electronics,4189.4,46.84,73018.41,2026-05-08,2026-05-09,2026-05-13,2026-05-25,False,12,1,Held at Customs
+SHP-0514,UAE,China,BlueDart,Rail,Industrial,1437.45,17.73,40178.38,2026-05-06,2026-05-08,2026-05-20,2026-06-03,False,14,1,Delayed
+SHP-0515,India,Australia,DHL,Air,Consumer Goods,394.47,45.33,14161.73,2026-05-25,2026-05-26,2026-05-29,2026-06-01,True,3,1,Delivered
+SHP-0516,USA,Brazil,UPS,Air,Perishables,3809.54,3.72,39143.47,2026-05-05,2026-05-05,2026-05-11,2026-05-10,False,-1,0,Delivered
+SHP-0517,Japan,Canada,Maersk,Rail,Electronics,4434.48,44.88,205613.58,2026-05-05,2026-05-07,2026-05-21,2026-05-26,True,5,1,Delayed
+SHP-0518,Brazil,UAE,BlueDart,Sea,Perishables,2206.79,41.72,32650.88,2026-05-17,2026-05-18,2026-06-01,2026-06-14,False,13,1,Delivered
+SHP-0519,India,UAE,UPS,Sea,Electronics,2514.82,15.7,85109.75,2026-04-30,2026-05-01,2026-05-19,2026-05-30,False,11,1,Held at Customs
+SHP-0520,USA,France,FedEx,Road,Pharmaceuticals,1785.39,36.92,64892.6,2026-05-27,2026-05-28,2026-06-06,2026-06-13,True,7,1,Delayed
+SHP-0521,China,France,FedEx,Air,Pharmaceuticals,3528.48,21.13,114404.59,2026-04-26,2026-04-26,2026-04-30,,True,-3,0,In Transit
+SHP-0522,Canada,Australia,UPS,Air,Perishables,2373.51,6.82,116830.64,2026-05-03,2026-05-03,2026-05-09,2026-05-09,False,0,0,Delivered
+SHP-0523,UAE,Australia,BlueDart,Road,Pharmaceuticals,258.97,33.28,8103.61,2026-05-31,2026-06-02,2026-06-12,2026-06-25,True,13,1,Delayed
+SHP-0524,UAE,USA,FedEx,Road,Industrial,4111.83,49.19,83827.19,2026-05-21,2026-05-23,2026-05-27,2026-05-31,False,4,1,Held at Customs
+SHP-0525,Germany,Brazil,BlueDart,Rail,Pharmaceuticals,233.53,26.66,4374.11,2026-05-08,2026-05-08,2026-05-24,2026-05-30,True,6,1,Delivered
+SHP-0526,Brazil,Japan,BlueDart,Sea,Perishables,4498.94,37.51,58745.33,2026-05-19,2026-05-21,2026-06-18,2026-06-15,False,-3,0,Delivered
+SHP-0527,Japan,Canada,UPS,Air,Pharmaceuticals,2830.82,8.65,122811.27,2026-06-01,2026-06-02,2026-06-07,,True,-3,0,In Transit
+SHP-0528,Germany,UAE,FedEx,Road,Electronics,2924.71,38.33,120674.2,2026-05-19,2026-05-21,2026-05-29,,True,-2,0,In Transit
+SHP-0529,India,Australia,UPS,Sea,Electronics,475.18,21.62,16188.09,2026-05-18,2026-05-20,2026-06-21,2026-07-02,False,11,1,Held at Customs
+SHP-0530,Germany,Brazil,Maersk,Sea,Consumer Goods,3316.41,48.59,107742.04,2026-05-07,2026-05-08,2026-05-28,2026-05-27,False,-1,0,Delivered
+SHP-0531,Canada,UAE,DHL,Rail,Perishables,4698.56,33.43,61420.15,2026-04-25,2026-04-27,2026-05-11,2026-05-23,True,12,1,Delivered
+SHP-0532,UAE,Germany,UPS,Sea,Industrial,4091.89,30.98,102044.85,2026-05-18,2026-05-20,2026-06-02,2026-06-15,True,13,1,Delivered
+SHP-0533,Australia,France,DHL,Sea,Industrial,2705.14,27.35,57143.32,2026-04-27,2026-04-29,2026-05-19,2026-05-29,False,10,1,Delayed
+SHP-0534,India,Japan,UPS,Road,Industrial,924.2,44.09,29834.67,2026-05-14,2026-05-15,2026-05-25,2026-05-27,False,2,1,Delivered
+SHP-0535,India,Brazil,DHL,Road,Perishables,4442.29,46.78,207263.13,2026-05-22,2026-05-23,2026-05-29,2026-05-27,True,-2,0,Delivered
+SHP-0536,Brazil,France,UPS,Air,Consumer Goods,2703.34,34.19,73364.1,2026-04-29,2026-04-30,2026-05-03,2026-05-17,True,14,1,Held at Customs
+SHP-0537,France,Brazil,Maersk,Rail,Consumer Goods,2747.45,42.39,74873.69,2026-05-03,2026-05-03,2026-05-19,2026-05-28,True,9,1,Delayed
+SHP-0538,China,USA,UPS,Road,Pharmaceuticals,1611.49,29.08,37077.88,2026-05-04,2026-05-06,2026-05-09,2026-05-13,True,4,1,Delayed
+SHP-0539,USA,Japan,Maersk,Road,Electronics,1246.09,11.33,55186.42,2026-05-03,2026-05-04,2026-05-11,2026-05-18,False,7,1,Delayed
+SHP-0540,UAE,Germany,Maersk,Air,Pharmaceuticals,1403.05,49.53,15476.74,2026-05-22,2026-05-24,2026-05-24,2026-06-02,True,9,1,Delayed
+SHP-0541,Canada,India,UPS,Sea,Electronics,1070.67,4.22,48699.18,2026-05-29,2026-05-29,2026-06-14,2026-06-24,True,10,1,Held at Customs
+SHP-0542,Brazil,India,BlueDart,Air,Pharmaceuticals,4500.03,5.12,115759.48,2026-05-08,2026-05-10,2026-05-10,2026-05-12,False,2,1,Delivered
+SHP-0543,Germany,Japan,Maersk,Sea,Consumer Goods,476.36,12.51,20581.63,2026-05-31,2026-06-01,2026-06-21,2026-06-21,True,0,0,Delivered
+SHP-0544,Canada,Japan,FedEx,Road,Industrial,1471.47,14.61,16829.51,2026-05-19,2026-05-20,2026-05-24,2026-05-22,True,-2,0,Delivered
+SHP-0545,Brazil,Germany,DHL,Air,Pharmaceuticals,4303.98,36.83,206032.56,2026-05-11,2026-05-11,2026-05-16,,False,0,0,In Transit
+SHP-0546,UAE,USA,FedEx,Rail,Consumer Goods,2048.65,48.72,65081.4,2026-05-08,2026-05-10,2026-05-21,2026-05-20,True,-1,0,Delivered
+SHP-0547,Germany,UAE,DHL,Rail,Consumer Goods,1936.14,27.94,23278.06,2026-05-13,2026-05-13,2026-05-27,2026-05-31,True,4,1,Held at Customs
+SHP-0548,Brazil,China,Maersk,Rail,Perishables,4104.8,46.59,56705.5,2026-04-27,2026-04-28,2026-05-10,2026-05-24,True,14,1,Delayed
+SHP-0549,Japan,Canada,FedEx,Air,Perishables,3787.09,3.51,112481.93,2026-04-28,2026-04-28,2026-05-04,2026-05-03,False,-1,0,Delivered
+SHP-0550,India,USA,UPS,Air,Consumer Goods,1159.63,11.22,25344.5,2026-05-20,2026-05-22,2026-05-25,2026-05-29,True,4,1,Held at Customs
+SHP-0551,France,Australia,BlueDart,Air,Pharmaceuticals,2097.81,7.15,35351.87,2026-04-30,2026-05-01,2026-05-05,2026-05-07,False,2,1,Delayed
+SHP-0552,Canada,Brazil,UPS,Road,Consumer Goods,1047.83,32.43,21368.53,2026-05-13,2026-05-14,2026-05-21,2026-05-28,False,7,1,Delivered
+SHP-0553,Brazil,UAE,UPS,Rail,Pharmaceuticals,644.57,32.76,29008.69,2026-05-08,2026-05-10,2026-05-18,2026-05-20,False,2,1,Delayed
+SHP-0554,Japan,Brazil,Maersk,Sea,Electronics,2045.26,8.66,80824.66,2026-06-02,2026-06-02,2026-06-20,,False,-2,0,In Transit
+SHP-0555,Germany,USA,FedEx,Rail,Perishables,2278.19,25.73,33469.36,2026-05-05,2026-05-06,2026-05-13,2026-05-12,True,-1,0,Delivered
+SHP-0556,India,Germany,FedEx,Rail,Consumer Goods,2114.83,21.95,49088.14,2026-05-20,2026-05-20,2026-05-27,2026-06-07,True,11,1,Delayed
+SHP-0557,France,USA,UPS,Air,Industrial,2825.33,39.2,30084.16,2026-05-24,2026-05-25,2026-05-29,2026-05-29,False,0,0,Delivered
+SHP-0558,Canada,Japan,UPS,Air,Pharmaceuticals,1055.54,32.95,43527.06,2026-06-01,2026-06-03,2026-06-04,2026-06-04,False,0,0,Delivered
+SHP-0559,Canada,Japan,FedEx,Air,Consumer Goods,398.94,15.1,5477.79,2026-04-27,2026-04-29,2026-05-03,2026-05-02,True,-1,0,Delivered
+SHP-0560,India,Brazil,FedEx,Air,Pharmaceuticals,3011.78,30.55,112343.3,2026-05-28,2026-05-29,2026-06-02,2026-06-12,False,10,1,Delivered
+SHP-0561,France,Australia,Maersk,Sea,Consumer Goods,3492.54,12.43,122285.03,2026-04-29,2026-04-29,2026-05-28,2026-06-10,True,13,1,Delivered
+SHP-0562,Canada,Japan,UPS,Road,Perishables,3069.39,42.62,36218.41,2026-05-04,2026-05-04,2026-05-16,2026-05-16,False,0,0,Delivered
+SHP-0563,China,Canada,Maersk,Air,Perishables,236.44,31.51,9994.39,2026-05-26,2026-05-28,2026-05-31,2026-06-12,True,12,1,Held at Customs
+SHP-0564,Canada,Japan,BlueDart,Air,Consumer Goods,3648.85,25.14,128937.48,2026-05-01,2026-05-01,2026-05-04,2026-05-04,False,0,0,Delivered
+SHP-0565,Brazil,Canada,FedEx,Road,Industrial,2863.21,25.51,36579.69,2026-05-10,2026-05-11,2026-05-22,2026-05-22,True,0,0,Delivered
+SHP-0566,Japan,USA,Maersk,Sea,Pharmaceuticals,4328.74,8.38,190740.62,2026-06-01,2026-06-01,2026-06-29,2026-06-26,False,-3,0,Lost
+SHP-0567,Canada,UAE,DHL,Road,Pharmaceuticals,1608.64,42.04,55625.86,2026-05-23,2026-05-24,2026-06-01,2026-06-06,False,5,1,Held at Customs
+SHP-0568,France,USA,UPS,Sea,Industrial,3205.19,30.08,34134.43,2026-05-05,2026-05-06,2026-06-04,2026-06-11,True,7,1,Delivered
+SHP-0569,Japan,Germany,FedEx,Rail,Pharmaceuticals,2827.23,17.79,43491.42,2026-04-27,2026-04-27,2026-05-08,2026-05-21,True,13,1,Delivered
+SHP-0570,China,Japan,FedEx,Sea,Consumer Goods,4481.9,32.6,96495.59,2026-05-21,2026-05-22,2026-06-05,2026-06-06,True,1,1,Delayed
+SHP-0571,USA,Canada,UPS,Air,Consumer Goods,2816.35,8.26,38538.79,2026-05-26,2026-05-26,2026-05-30,2026-05-27,False,-3,0,Delivered
+SHP-0572,France,Canada,UPS,Road,Industrial,2810.25,40.8,71272.73,2026-05-08,2026-05-09,2026-05-21,2026-05-28,False,7,1,Delayed
+SHP-0573,UAE,Germany,DHL,Rail,Industrial,2452.23,7.76,32471.31,2026-05-13,2026-05-15,2026-05-23,2026-05-21,True,-2,0,Delivered
+SHP-0574,Brazil,Germany,Maersk,Air,Consumer Goods,2372.69,16.68,68946.7,2026-05-05,2026-05-05,2026-05-07,2026-05-07,True,0,0,Delivered
+SHP-0575,China,Australia,UPS,Air,Perishables,1644.67,7.53,58050.03,2026-05-26,2026-05-28,2026-06-01,2026-06-05,False,4,1,Delayed
+SHP-0576,Japan,China,BlueDart,Rail,Consumer Goods,3792.01,43.77,113754.08,2026-04-27,2026-04-28,2026-05-09,2026-05-21,True,12,1,Delayed
+SHP-0577,China,Australia,BlueDart,Road,Industrial,2270.87,31.24,99914.59,2026-05-10,2026-05-12,2026-05-24,2026-05-27,True,3,1,Held at Customs
+SHP-0578,UAE,China,DHL,Road,Pharmaceuticals,2444.61,29.69,77384.07,2026-04-30,2026-05-02,2026-05-11,2026-05-09,False,-2,0,Delivered
+SHP-0579,Germany,Canada,DHL,Sea,Industrial,1548.76,46.69,47900.86,2026-06-02,2026-06-04,2026-06-22,2026-07-04,False,12,1,Delivered
+SHP-0580,Japan,France,UPS,Air,Industrial,4499.88,40.69,149959.44,2026-05-31,2026-06-01,2026-06-04,2026-06-16,True,12,1,Delayed
+SHP-0581,Japan,Canada,DHL,Rail,Perishables,3538.52,28.27,86144.79,2026-05-03,2026-05-03,2026-05-17,2026-05-26,False,9,1,Held at Customs
+SHP-0582,Japan,Brazil,DHL,Rail,Electronics,4878.38,41.83,107913.18,2026-05-13,2026-05-14,2026-05-26,2026-06-09,True,14,1,Held at Customs
+SHP-0583,Canada,Germany,BlueDart,Road,Perishables,1605.47,19.13,51405.34,2026-05-21,2026-05-21,2026-06-03,2026-06-12,False,9,1,Delivered
+SHP-0584,Australia,USA,Maersk,Road,Industrial,403.98,17.63,12215.25,2026-05-27,2026-05-28,2026-06-03,,True,-3,0,In Transit
+SHP-0585,France,Australia,UPS,Rail,Electronics,4376.01,23.15,216315.86,2026-05-28,2026-05-29,2026-06-09,2026-06-13,False,4,1,Delayed
+SHP-0586,France,Japan,BlueDart,Rail,Perishables,2045.05,23.31,54395.09,2026-05-03,2026-05-05,2026-05-18,2026-05-16,False,-2,0,Delivered
+SHP-0587,Canada,Australia,Maersk,Sea,Pharmaceuticals,2439.34,30.49,81155.54,2026-05-25,2026-05-26,2026-06-28,2026-06-28,True,0,0,Delivered
+SHP-0588,Japan,USA,FedEx,Sea,Industrial,2019.54,8.97,79518.63,2026-05-30,2026-06-01,2026-06-17,2026-07-01,True,14,1,Delivered
+SHP-0589,Australia,UAE,DHL,Air,Industrial,1881.86,5.83,27586.4,2026-05-17,2026-05-19,2026-05-22,2026-05-21,True,-1,0,Delivered
+SHP-0590,UAE,Germany,DHL,Rail,Perishables,2872.67,45.49,74265.72,2026-05-04,2026-05-04,2026-05-15,2026-05-16,False,1,1,Delayed
+SHP-0591,Germany,China,UPS,Sea,Electronics,2665.95,16.64,76770.34,2026-05-04,2026-05-04,2026-05-29,2026-06-10,False,12,1,Delivered
+SHP-0592,France,Canada,Maersk,Road,Consumer Goods,4160.4,39.39,87712.76,2026-05-15,2026-05-17,2026-05-29,2026-06-05,True,7,1,Held at Customs
+SHP-0593,Australia,Brazil,UPS,Road,Perishables,1695.86,20.31,57885.41,2026-06-02,2026-06-03,2026-06-08,2026-06-22,True,14,1,Delivered
+SHP-0594,Australia,Japan,BlueDart,Rail,Perishables,3394.03,24.58,143862.75,2026-05-21,2026-05-22,2026-06-02,2026-06-07,True,5,1,Delayed
+SHP-0595,Germany,Brazil,BlueDart,Rail,Consumer Goods,163.25,12.11,5334.31,2026-05-08,2026-05-08,2026-05-19,2026-05-31,False,12,1,Delivered
+SHP-0596,Australia,Japan,DHL,Rail,Perishables,367.37,30.37,16934.34,2026-06-02,2026-06-03,2026-06-19,2026-06-19,True,0,0,Delivered
+SHP-0597,China,Australia,UPS,Rail,Industrial,1077.12,13.96,32466.42,2026-05-18,2026-05-19,2026-06-03,2026-06-12,False,9,1,Delivered
+SHP-0598,China,France,DHL,Rail,Pharmaceuticals,2282.39,1.71,45410.41,2026-05-24,2026-05-26,2026-05-31,2026-06-09,False,9,1,Delayed
+SHP-0599,Canada,Japan,Maersk,Sea,Electronics,203.0,41.16,8727.81,2026-05-29,2026-05-29,2026-06-22,2026-06-29,False,7,1,Delayed
+SHP-0600,Australia,Canada,BlueDart,Rail,Pharmaceuticals,2264.99,9.0,39361.82,2026-04-26,2026-04-26,2026-05-15,2026-05-28,True,13,1,Delayed
+SHP-0601,Canada,India,FedEx,Air,Perishables,2468.14,19.76,107526.65,2026-05-16,2026-05-18,2026-05-21,2026-06-03,False,13,1,Delivered
+SHP-0602,China,USA,FedEx,Air,Industrial,2811.12,26.5,139946.77,2026-05-10,2026-05-10,2026-05-15,2026-05-22,False,7,1,Delayed
+SHP-0603,Australia,France,Maersk,Air,Perishables,580.24,3.16,10102.6,2026-06-02,2026-06-02,2026-06-08,2026-06-19,True,11,1,Delayed
+SHP-0604,Brazil,USA,UPS,Rail,Pharmaceuticals,2987.15,23.26,83827.27,2026-06-01,2026-06-02,2026-06-16,2026-06-20,False,4,1,Delivered
+SHP-0605,India,Germany,FedEx,Rail,Industrial,1854.88,49.49,69321.63,2026-06-03,2026-06-05,2026-06-20,2026-07-02,True,12,1,Delayed
+SHP-0606,USA,UAE,FedEx,Rail,Industrial,932.38,3.72,21673.97,2026-05-10,2026-05-12,2026-05-28,,False,-3,0,In Transit
+SHP-0607,Germany,India,UPS,Air,Perishables,208.87,49.44,2434.82,2026-05-18,2026-05-19,2026-05-24,2026-05-28,False,4,1,Delayed
+SHP-0608,India,Japan,DHL,Sea,Industrial,977.26,40.08,36258.14,2026-05-13,2026-05-15,2026-06-14,2026-06-21,True,7,1,Delivered
+SHP-0609,UAE,USA,Maersk,Sea,Electronics,3933.89,49.63,77209.75,2026-05-14,2026-05-15,2026-06-09,2026-06-06,False,-3,0,Delivered
+SHP-0610,Germany,Brazil,DHL,Sea,Pharmaceuticals,2107.4,48.93,36322.46,2026-05-03,2026-05-04,2026-06-04,2026-06-16,False,12,1,Delivered
+SHP-0611,India,USA,BlueDart,Sea,Consumer Goods,3684.65,19.23,113764.94,2026-05-28,2026-05-28,2026-06-16,2026-06-14,True,-2,0,Delivered
+SHP-0612,France,UAE,BlueDart,Rail,Pharmaceuticals,3296.15,23.52,122057.92,2026-05-31,2026-06-01,2026-06-18,2026-07-01,False,13,1,Delayed
+SHP-0613,Germany,France,DHL,Rail,Industrial,751.75,8.78,36062.14,2026-05-27,2026-05-27,2026-06-11,2026-06-08,False,-3,0,Delivered
+SHP-0614,Germany,UAE,BlueDart,Road,Industrial,1120.75,18.42,41208.59,2026-05-19,2026-05-21,2026-05-25,2026-05-26,True,1,1,Delayed
+SHP-0615,Germany,Canada,BlueDart,Road,Consumer Goods,3313.93,10.74,74896.21,2026-05-01,2026-05-02,2026-05-13,2026-05-23,True,10,1,Delivered
+SHP-0616,Canada,Brazil,FedEx,Air,Consumer Goods,2417.83,3.12,91813.66,2026-05-14,2026-05-16,2026-05-16,2026-05-14,True,-2,0,Delivered
+SHP-0617,USA,UAE,Maersk,Sea,Consumer Goods,2614.56,7.39,72218.24,2026-04-27,2026-04-27,2026-05-28,2026-05-25,True,-3,0,Delivered
+SHP-0618,France,Australia,BlueDart,Air,Electronics,1663.32,21.36,77045.99,2026-05-28,2026-05-28,2026-06-03,2026-06-06,True,3,1,Delayed
+SHP-0619,Germany,China,DHL,Sea,Electronics,954.61,24.11,13036.99,2026-05-04,2026-05-05,2026-06-07,2026-06-10,True,3,1,Delayed
+SHP-0620,Brazil,Canada,UPS,Road,Electronics,4493.22,10.62,48987.69,2026-04-25,2026-04-26,2026-05-08,2026-05-21,True,13,1,Delayed
+SHP-0621,China,Canada,DHL,Rail,Electronics,4069.79,22.05,162768.8,2026-06-03,2026-06-05,2026-06-12,2026-06-13,False,1,1,Delivered
+SHP-0622,India,France,UPS,Air,Electronics,1417.11,10.73,28164.04,2026-05-19,2026-05-20,2026-05-21,,True,-2,0,In Transit
+SHP-0623,Canada,USA,DHL,Sea,Consumer Goods,430.15,41.75,7352.58,2026-05-22,2026-05-24,2026-06-15,2026-06-17,True,2,1,Held at Customs
+SHP-0624,China,Germany,UPS,Rail,Electronics,1488.09,20.62,63206.09,2026-04-27,2026-04-29,2026-05-16,2026-05-13,False,-3,0,Delivered
+SHP-0625,Brazil,USA,FedEx,Sea,Consumer Goods,1538.32,14.03,35860.14,2026-05-01,2026-05-01,2026-05-20,2026-05-24,False,4,1,Held at Customs
+SHP-0626,Canada,Australia,BlueDart,Road,Consumer Goods,4057.82,44.41,173038.27,2026-05-08,2026-05-09,2026-05-21,,False,-1,0,In Transit
+SHP-0627,Brazil,Australia,BlueDart,Sea,Consumer Goods,341.18,12.32,15658.6,2026-05-30,2026-05-30,2026-06-16,2026-06-26,False,10,1,Delivered
+SHP-0628,Japan,Brazil,Maersk,Rail,Industrial,4309.65,25.5,159438.64,2026-04-26,2026-04-27,2026-05-09,2026-05-11,True,2,1,Delivered
+SHP-0629,UAE,India,UPS,Sea,Perishables,3434.35,46.65,119566.38,2026-05-09,2026-05-11,2026-06-06,2026-06-11,True,5,1,Delayed
+SHP-0630,France,India,BlueDart,Sea,Electronics,3852.71,34.89,187340.18,2026-06-03,2026-06-05,2026-06-30,2026-07-13,False,13,1,Delayed
+SHP-0631,Japan,Brazil,UPS,Sea,Pharmaceuticals,2198.1,31.97,85823.61,2026-05-14,2026-05-16,2026-05-31,2026-06-06,False,6,1,Delayed
+SHP-0632,Brazil,China,DHL,Road,Industrial,1635.01,32.17,42397.81,2026-05-20,2026-05-22,2026-06-02,2026-06-09,True,7,1,Held at Customs
+SHP-0633,Japan,India,UPS,Rail,Electronics,3849.45,8.01,139768.32,2026-04-29,2026-05-01,2026-05-11,2026-05-11,False,0,0,Delivered
+SHP-0634,Brazil,Australia,DHL,Sea,Consumer Goods,4080.71,5.04,138738.89,2026-05-07,2026-05-09,2026-06-07,2026-06-05,False,-2,0,Delivered
+SHP-0635,Canada,India,BlueDart,Sea,Perishables,3846.79,8.19,144688.98,2026-05-24,2026-05-26,2026-06-24,2026-07-04,True,10,1,Delayed
+SHP-0636,Brazil,Canada,UPS,Air,Pharmaceuticals,1293.5,16.0,16230.05,2026-05-15,2026-05-17,2026-05-21,2026-05-26,False,5,1,Delayed
+SHP-0637,France,USA,Maersk,Air,Consumer Goods,3445.0,12.55,164474.52,2026-05-12,2026-05-14,2026-05-17,2026-05-24,True,7,1,Delayed
+SHP-0638,Brazil,Germany,FedEx,Rail,Consumer Goods,745.27,35.55,29571.65,2026-05-12,2026-05-13,2026-05-24,2026-06-06,False,13,1,Held at Customs
+SHP-0639,China,UAE,UPS,Sea,Pharmaceuticals,362.81,36.16,10528.39,2026-05-15,2026-05-16,2026-06-07,2026-06-08,False,1,1,Delayed
+SHP-0640,UAE,USA,DHL,Rail,Industrial,1027.06,36.3,31268.37,2026-04-27,2026-04-29,2026-05-06,2026-05-10,True,4,1,Delayed
+SHP-0641,UAE,India,BlueDart,Sea,Perishables,4675.94,20.71,134440.73,2026-05-10,2026-05-10,2026-06-10,2026-06-17,False,7,1,Held at Customs
+SHP-0642,Australia,India,FedEx,Sea,Perishables,3098.84,16.01,71410.64,2026-05-29,2026-05-31,2026-06-27,2026-07-04,True,7,1,Delayed
+SHP-0643,India,Japan,UPS,Sea,Perishables,1425.74,13.19,67982.6,2026-05-12,2026-05-12,2026-06-03,2026-06-16,True,13,1,Delayed
+SHP-0644,Australia,India,BlueDart,Sea,Consumer Goods,4881.32,19.09,118556.0,2026-05-16,2026-05-16,2026-06-01,2026-06-08,False,7,1,Held at Customs
+SHP-0645,UAE,Germany,DHL,Rail,Consumer Goods,4411.58,25.77,133716.37,2026-05-02,2026-05-03,2026-05-13,2026-05-11,True,-2,0,Delivered
+SHP-0646,India,France,FedEx,Road,Electronics,4358.96,26.97,125185.92,2026-05-13,2026-05-13,2026-05-22,2026-06-01,True,10,1,Delayed
+SHP-0647,Japan,Brazil,DHL,Air,Perishables,3400.38,7.73,71662.32,2026-05-10,2026-05-12,2026-05-13,2026-05-11,False,-2,0,Delivered
+SHP-0648,Brazil,UAE,DHL,Road,Industrial,3757.18,16.27,164662.7,2026-05-15,2026-05-15,2026-05-22,2026-05-19,True,-3,0,Delivered
+SHP-0649,Canada,Australia,UPS,Air,Electronics,1100.79,21.52,20678.78,2026-05-15,2026-05-15,2026-05-19,2026-05-25,False,6,1,Delayed
+SHP-0650,Brazil,Germany,DHL,Road,Perishables,4128.92,37.89,162325.88,2026-06-03,2026-06-03,2026-06-08,2026-06-09,False,1,1,Delayed
+SHP-0651,Canada,Japan,DHL,Road,Industrial,683.79,26.11,16379.01,2026-05-22,2026-05-24,2026-06-05,,True,-1,0,In Transit
+SHP-0652,Japan,China,FedEx,Road,Industrial,274.39,49.72,5298.23,2026-05-25,2026-05-27,2026-06-06,2026-06-03,True,-3,0,Delivered
+SHP-0653,Canada,China,Maersk,Sea,Consumer Goods,2019.87,40.32,47769.48,2026-04-25,2026-04-25,2026-05-16,2026-05-18,False,2,1,Delivered
+SHP-0654,France,Canada,UPS,Sea,Pharmaceuticals,4343.57,1.49,178615.64,2026-05-20,2026-05-21,2026-06-06,,True,-2,0,In Transit
+SHP-0655,Japan,UAE,FedEx,Rail,Pharmaceuticals,4935.79,37.97,98440.36,2026-05-20,2026-05-20,2026-05-30,2026-05-28,True,-2,0,Delivered
+SHP-0656,Canada,UAE,DHL,Sea,Perishables,577.1,35.61,13748.36,2026-05-28,2026-05-30,2026-06-21,2026-06-20,True,-1,0,Delivered
+SHP-0657,France,Australia,Maersk,Road,Industrial,189.55,45.3,2415.99,2026-04-26,2026-04-26,2026-05-08,2026-05-07,False,-1,0,Delivered
+SHP-0658,China,USA,FedEx,Sea,Electronics,2197.96,4.01,41666.69,2026-05-26,2026-05-27,2026-06-20,2026-06-19,False,-1,0,Delivered
+SHP-0659,UAE,China,UPS,Sea,Pharmaceuticals,1717.76,6.23,82686.29,2026-05-24,2026-05-25,2026-06-24,2026-06-21,False,-3,0,Delivered
+SHP-0660,Australia,Germany,UPS,Rail,Perishables,4237.14,45.87,164050.65,2026-05-22,2026-05-24,2026-05-31,2026-06-02,False,2,1,Delayed
+SHP-0661,Germany,China,FedEx,Sea,Electronics,1031.63,41.24,32790.6,2026-05-15,2026-05-15,2026-06-17,2026-06-22,True,5,1,Delivered
+SHP-0662,Brazil,China,FedEx,Sea,Electronics,4312.26,9.27,190419.55,2026-04-27,2026-04-28,2026-05-12,2026-05-23,False,11,1,Delivered
+SHP-0663,Australia,France,Maersk,Sea,Industrial,170.47,40.35,8392.54,2026-05-10,2026-05-10,2026-06-08,2026-06-12,True,4,1,Held at Customs
+SHP-0664,Brazil,France,Maersk,Air,Consumer Goods,3797.23,22.83,127924.33,2026-05-28,2026-05-29,2026-05-31,2026-06-12,False,12,1,Delivered
+SHP-0665,India,Japan,UPS,Rail,Electronics,4002.56,37.23,143377.2,2026-05-17,2026-05-18,2026-05-25,2026-05-23,True,-2,0,Delivered
+SHP-0666,Australia,Brazil,BlueDart,Road,Industrial,2126.23,2.95,44564.77,2026-06-02,2026-06-04,2026-06-10,2026-06-17,False,7,1,Held at Customs
+SHP-0667,India,UAE,FedEx,Rail,Industrial,2021.87,47.44,31638.15,2026-04-26,2026-04-28,2026-05-08,2026-05-15,True,7,1,Delayed
+SHP-0668,UAE,Canada,FedEx,Rail,Industrial,2440.94,24.43,99392.15,2026-05-17,2026-05-19,2026-06-01,2026-06-10,True,9,1,Delayed
+SHP-0669,UAE,China,Maersk,Air,Perishables,4596.47,44.49,160956.14,2026-05-13,2026-05-14,2026-05-17,2026-05-30,True,13,1,Delivered
+SHP-0670,USA,Germany,DHL,Rail,Perishables,1637.15,32.15,39681.75,2026-05-25,2026-05-27,2026-06-05,2026-06-19,False,14,1,Delivered
+SHP-0671,Canada,Germany,Maersk,Rail,Electronics,1285.01,21.87,62592.47,2026-05-28,2026-05-30,2026-06-12,2026-06-12,False,0,0,Delivered
+SHP-0672,Germany,China,FedEx,Sea,Electronics,1876.26,41.38,34079.46,2026-04-27,2026-04-28,2026-05-29,2026-06-02,False,4,1,Delivered
+SHP-0673,Australia,Japan,FedEx,Air,Pharmaceuticals,2634.74,21.24,47356.34,2026-05-21,2026-05-22,2026-05-24,2026-05-21,True,-3,0,Delivered
+SHP-0674,Japan,India,Maersk,Rail,Industrial,1865.93,5.27,33747.17,2026-05-31,2026-06-01,2026-06-11,2026-06-20,True,9,1,Held at Customs
+SHP-0675,Australia,China,FedEx,Rail,Industrial,129.63,24.71,1935.36,2026-05-05,2026-05-05,2026-05-16,2026-05-18,True,2,1,Held at Customs
+SHP-0676,India,Japan,UPS,Road,Consumer Goods,4832.58,11.08,191672.9,2026-05-06,2026-05-06,2026-05-11,2026-05-09,True,-2,0,Delivered
+SHP-0677,Germany,India,BlueDart,Air,Pharmaceuticals,914.52,45.91,21137.78,2026-06-02,2026-06-02,2026-06-04,2026-06-04,False,0,0,Delivered
+SHP-0678,USA,India,DHL,Rail,Pharmaceuticals,2957.33,29.37,36021.69,2026-04-28,2026-04-28,2026-05-11,2026-05-14,False,3,1,Held at Customs
+SHP-0679,UAE,Canada,FedEx,Rail,Consumer Goods,526.84,24.88,19839.03,2026-05-13,2026-05-14,2026-05-24,2026-05-27,True,3,1,Delayed
+SHP-0680,Japan,Brazil,BlueDart,Rail,Electronics,1823.08,45.57,59720.85,2026-05-28,2026-05-28,2026-06-06,2026-06-05,True,-1,0,Delivered
+SHP-0681,Germany,USA,BlueDart,Road,Consumer Goods,4001.87,41.81,197815.36,2026-04-26,2026-04-26,2026-05-08,2026-05-14,True,6,1,Held at Customs
+SHP-0682,UAE,India,DHL,Air,Industrial,2035.76,3.51,53082.55,2026-05-24,2026-05-25,2026-05-30,2026-05-30,False,0,0,Delivered
+SHP-0683,France,Japan,UPS,Road,Pharmaceuticals,3342.35,11.74,48509.96,2026-05-06,2026-05-07,2026-05-14,2026-05-14,False,0,0,Delivered
+SHP-0684,Australia,Canada,FedEx,Sea,Perishables,2703.65,20.39,93346.43,2026-05-12,2026-05-13,2026-06-07,2026-06-04,True,-3,0,Delivered
+SHP-0685,Australia,USA,FedEx,Rail,Industrial,3565.67,13.36,99371.87,2026-05-05,2026-05-06,2026-05-19,2026-05-21,False,2,1,Held at Customs
+SHP-0686,China,India,FedEx,Road,Perishables,208.22,18.54,4861.19,2026-05-09,2026-05-09,2026-05-17,2026-05-16,False,-1,0,Delivered
+SHP-0687,Canada,France,DHL,Air,Perishables,4699.7,25.13,178751.34,2026-04-26,2026-04-27,2026-04-30,2026-05-04,True,4,1,Delivered
+SHP-0688,China,Brazil,BlueDart,Rail,Industrial,684.97,17.06,29200.14,2026-05-04,2026-05-05,2026-05-17,2026-05-17,True,0,0,Delivered
+SHP-0689,Australia,UAE,BlueDart,Rail,Industrial,4287.28,17.66,192010.07,2026-05-10,2026-05-12,2026-05-27,,True,-3,0,In Transit
+SHP-0690,Japan,Brazil,UPS,Air,Pharmaceuticals,990.91,22.09,16468.92,2026-05-29,2026-05-31,2026-06-04,,False,-3,0,In Transit
+SHP-0691,France,USA,FedEx,Road,Electronics,1503.72,26.39,60029.47,2026-05-28,2026-05-28,2026-06-09,2026-06-17,False,8,1,Held at Customs
+SHP-0692,Germany,Australia,FedEx,Air,Perishables,3719.84,16.01,76640.8,2026-05-14,2026-05-15,2026-05-19,2026-05-16,False,-3,0,Delivered
+SHP-0693,Japan,Australia,DHL,Rail,Pharmaceuticals,4126.04,5.97,171955.41,2026-05-26,2026-05-28,2026-06-05,2026-06-15,False,10,1,Delayed
+SHP-0694,Japan,Germany,DHL,Road,Electronics,914.65,19.61,31727.17,2026-04-28,2026-04-29,2026-05-04,2026-05-01,True,-3,0,Delivered
+SHP-0695,India,Canada,UPS,Sea,Pharmaceuticals,3633.55,10.01,84063.71,2026-05-24,2026-05-26,2026-06-19,2026-06-27,False,8,1,Delivered
+SHP-0696,Canada,Japan,BlueDart,Sea,Electronics,1470.22,7.68,57515.73,2026-05-15,2026-05-15,2026-06-14,2026-06-11,True,-3,0,Delivered
+SHP-0697,India,Canada,Maersk,Air,Electronics,1989.21,25.83,88002.74,2026-06-03,2026-06-04,2026-06-09,2026-06-13,True,4,1,Held at Customs
+SHP-0698,UAE,USA,BlueDart,Rail,Electronics,4620.96,25.62,106815.15,2026-05-11,2026-05-12,2026-05-29,2026-06-08,False,10,1,Delayed
+SHP-0699,Japan,China,BlueDart,Sea,Pharmaceuticals,4610.63,1.59,148059.29,2026-05-08,2026-05-09,2026-06-01,2026-06-06,False,5,1,Delivered
+SHP-0700,USA,France,FedEx,Sea,Perishables,2638.25,31.1,51351.93,2026-05-25,2026-05-25,2026-06-26,2026-07-05,True,9,1,Delayed
+SHP-0701,France,UAE,BlueDart,Road,Pharmaceuticals,2338.41,42.44,34069.43,2026-05-20,2026-05-21,2026-06-03,2026-06-01,False,-2,0,Delivered
+SHP-0702,Germany,USA,BlueDart,Road,Consumer Goods,2384.64,39.8,62220.7,2026-05-09,2026-05-10,2026-05-21,2026-05-26,True,5,1,Delayed
+SHP-0703,India,Germany,Maersk,Air,Electronics,1329.36,5.93,34205.04,2026-04-30,2026-05-02,2026-05-04,2026-05-18,True,14,1,Delivered
+SHP-0704,UAE,Australia,UPS,Road,Perishables,1815.97,31.24,82431.09,2026-04-25,2026-04-25,2026-04-30,2026-05-02,True,2,1,Delivered
+SHP-0705,Canada,USA,Maersk,Sea,Electronics,4853.36,43.39,165168.02,2026-06-01,2026-06-01,2026-06-25,2026-06-22,False,-3,0,Delivered
+SHP-0706,Japan,Canada,Maersk,Sea,Pharmaceuticals,1521.22,10.87,31349.82,2026-05-26,2026-05-26,2026-06-11,2026-06-19,False,8,1,Delivered
+SHP-0707,Brazil,Germany,BlueDart,Road,Industrial,942.37,27.82,15628.24,2026-05-31,2026-06-01,2026-06-07,2026-06-15,True,8,1,Delayed
+SHP-0708,France,Canada,Maersk,Sea,Perishables,2840.17,26.22,39714.63,2026-05-25,2026-05-27,2026-06-26,2026-07-08,True,12,1,Held at Customs
+SHP-0709,Brazil,USA,BlueDart,Air,Perishables,490.6,34.47,23206.69,2026-05-12,2026-05-14,2026-05-17,2026-05-22,False,5,1,Held at Customs
+SHP-0710,China,Japan,UPS,Sea,Industrial,1040.58,36.24,21708.6,2026-05-28,2026-05-29,2026-06-26,2026-07-03,False,7,1,Delayed
+SHP-0711,UAE,Brazil,Maersk,Road,Consumer Goods,3825.96,34.14,84319.0,2026-05-13,2026-05-13,2026-05-27,2026-05-24,True,-3,0,Delivered
+SHP-0712,USA,Canada,DHL,Rail,Perishables,4978.0,23.06,100063.85,2026-05-26,2026-05-26,2026-06-14,2026-06-21,False,7,1,Delayed
+SHP-0713,Brazil,USA,UPS,Air,Consumer Goods,4765.27,17.75,235557.52,2026-05-04,2026-05-06,2026-05-10,2026-05-10,False,0,0,Delivered
+SHP-0714,India,Germany,FedEx,Sea,Consumer Goods,1972.45,15.79,22675.05,2026-05-20,2026-05-20,2026-06-08,,True,-2,0,In Transit
+SHP-0715,Germany,Canada,UPS,Road,Industrial,3143.81,6.92,154293.86,2026-05-09,2026-05-10,2026-05-23,2026-05-23,False,0,0,Delivered
+SHP-0716,France,Japan,UPS,Road,Industrial,4084.01,5.86,110863.6,2026-05-10,2026-05-10,2026-05-22,2026-05-22,False,0,0,Lost
+SHP-0717,UAE,India,UPS,Rail,Pharmaceuticals,4625.96,49.88,52264.3,2026-05-03,2026-05-05,2026-05-12,2026-05-10,True,-2,0,Delivered
+SHP-0718,Canada,India,DHL,Road,Electronics,1592.0,49.16,56852.07,2026-05-24,2026-05-24,2026-06-01,2026-05-31,True,-1,0,Delivered
+SHP-0719,UAE,Brazil,BlueDart,Rail,Industrial,3237.87,42.67,128332.24,2026-05-19,2026-05-20,2026-05-29,2026-06-11,True,13,1,Held at Customs
+SHP-0720,Australia,Germany,FedEx,Rail,Perishables,3080.24,22.78,122269.5,2026-05-31,2026-06-01,2026-06-08,2026-06-06,True,-2,0,Delivered
+SHP-0721,Germany,China,DHL,Air,Electronics,1909.84,33.52,28131.06,2026-05-09,2026-05-11,2026-05-13,2026-05-20,False,7,1,Held at Customs
+SHP-0722,Germany,USA,FedEx,Rail,Industrial,181.64,17.61,7597.35,2026-06-03,2026-06-03,2026-06-16,2026-06-15,False,-1,0,Delivered
+SHP-0723,Australia,UAE,Maersk,Rail,Industrial,136.03,34.89,4958.8,2026-05-26,2026-05-28,2026-06-08,2026-06-16,True,8,1,Delayed
+SHP-0724,India,Canada,FedEx,Road,Industrial,2387.7,18.63,75084.13,2026-05-30,2026-05-30,2026-06-07,2026-06-05,False,-2,0,Delivered
+SHP-0725,India,Canada,BlueDart,Air,Consumer Goods,3476.69,43.32,173390.76,2026-05-30,2026-05-30,2026-06-04,2026-06-10,True,6,1,Delayed
+SHP-0726,Canada,Japan,Maersk,Air,Consumer Goods,2832.67,3.68,138443.38,2026-05-21,2026-05-21,2026-05-27,2026-05-24,True,-3,0,Delivered
+SHP-0727,USA,UAE,UPS,Road,Consumer Goods,4303.5,15.94,76202.31,2026-05-04,2026-05-05,2026-05-12,2026-05-15,False,3,1,Held at Customs
+SHP-0728,India,Canada,Maersk,Rail,Consumer Goods,2410.97,12.15,40136.38,2026-06-02,2026-06-04,2026-06-15,2026-06-13,False,-2,0,Delivered
+SHP-0729,Japan,France,FedEx,Air,Consumer Goods,2337.98,17.13,28287.85,2026-05-29,2026-05-30,2026-06-01,2026-06-01,False,0,0,Delivered
+SHP-0730,Australia,Germany,UPS,Air,Perishables,3557.51,26.56,53312.48,2026-06-01,2026-06-01,2026-06-07,2026-06-04,True,-3,0,Delivered
+SHP-0731,USA,China,UPS,Air,Perishables,195.3,10.25,5190.36,2026-04-25,2026-04-26,2026-04-29,2026-04-30,False,1,1,Delayed
+SHP-0732,Japan,India,DHL,Sea,Consumer Goods,648.48,30.87,21229.47,2026-05-11,2026-05-13,2026-05-29,2026-05-27,False,-2,0,Delivered
+SHP-0733,Germany,France,FedEx,Rail,Pharmaceuticals,2597.32,45.53,107548.78,2026-05-16,2026-05-18,2026-05-29,2026-05-29,True,0,0,Delivered
+SHP-0734,USA,China,UPS,Sea,Industrial,2318.84,14.66,112127.22,2026-05-28,2026-05-28,2026-06-26,,False,-3,0,In Transit
+SHP-0735,China,Canada,FedEx,Sea,Consumer Goods,4135.86,35.74,138572.32,2026-04-26,2026-04-27,2026-05-13,2026-05-12,False,-1,0,Delivered
+SHP-0736,Japan,USA,DHL,Sea,Industrial,3677.01,18.53,46168.68,2026-05-20,2026-05-20,2026-06-19,2026-06-22,False,3,1,Delayed
+SHP-0737,Canada,China,Maersk,Rail,Industrial,1367.68,18.01,57124.29,2026-05-02,2026-05-02,2026-05-16,2026-05-23,False,7,1,Delayed
+SHP-0738,Australia,Brazil,BlueDart,Air,Electronics,2893.89,30.9,138023.67,2026-04-25,2026-04-25,2026-04-27,2026-04-26,False,-1,0,Lost
+SHP-0739,Brazil,Japan,BlueDart,Road,Perishables,3692.49,49.78,79390.19,2026-05-31,2026-06-02,2026-06-08,2026-06-05,False,-3,0,Delivered
+SHP-0740,Brazil,Canada,FedEx,Sea,Consumer Goods,372.96,7.33,4591.0,2026-05-29,2026-05-29,2026-06-16,2026-06-30,True,14,1,Delayed
+SHP-0741,India,USA,DHL,Air,Industrial,1547.57,5.44,56826.97,2026-05-25,2026-05-26,2026-05-27,2026-05-28,True,1,1,Held at Customs
+SHP-0742,France,China,BlueDart,Road,Pharmaceuticals,4489.06,2.42,87921.97,2026-05-08,2026-05-08,2026-05-16,2026-05-21,True,5,1,Delayed
+SHP-0743,UAE,China,UPS,Air,Electronics,1199.48,25.72,24510.14,2026-04-28,2026-04-30,2026-05-03,2026-05-10,True,7,1,Delayed
+SHP-0744,UAE,Germany,DHL,Sea,Perishables,4375.35,12.96,122529.03,2026-05-25,2026-05-27,2026-06-15,2026-06-27,True,12,1,Held at Customs
+SHP-0745,Japan,Australia,BlueDart,Road,Pharmaceuticals,2343.71,20.33,104722.6,2026-06-02,2026-06-03,2026-06-08,,False,-2,0,In Transit
+SHP-0746,Brazil,Australia,BlueDart,Air,Perishables,1805.45,44.88,87862.02,2026-05-25,2026-05-25,2026-05-30,2026-05-28,False,-2,0,Delivered
+SHP-0747,USA,Canada,FedEx,Rail,Pharmaceuticals,3470.07,14.4,136925.24,2026-05-08,2026-05-09,2026-05-23,2026-05-20,True,-3,0,Delivered
+SHP-0748,Brazil,China,UPS,Air,Industrial,3761.76,3.35,180341.83,2026-05-31,2026-06-01,2026-06-03,2026-06-01,True,-2,0,Delivered
+SHP-0749,USA,France,Maersk,Air,Industrial,2279.09,29.25,112435.78,2026-05-18,2026-05-20,2026-05-20,2026-05-27,True,7,1,Delivered
+SHP-0750,Brazil,Japan,FedEx,Road,Industrial,138.06,25.11,6828.38,2026-05-10,2026-05-12,2026-05-20,2026-05-17,False,-3,0,Delivered
+SHP-0751,Brazil,USA,UPS,Sea,Electronics,2355.61,11.66,36161.27,2026-05-24,2026-05-25,2026-06-10,2026-06-23,False,13,1,Delayed
+SHP-0752,Canada,France,BlueDart,Road,Industrial,2769.53,7.16,59791.71,2026-04-29,2026-04-29,2026-05-06,2026-05-16,True,10,1,Delayed
+SHP-0753,France,USA,Maersk,Road,Pharmaceuticals,136.22,25.95,2121.32,2026-05-25,2026-05-26,2026-06-01,2026-06-10,True,9,1,Delivered
+SHP-0754,China,France,Maersk,Air,Perishables,1586.09,36.11,38615.67,2026-04-26,2026-04-26,2026-05-02,2026-05-06,False,4,1,Delivered
+SHP-0755,Germany,India,FedEx,Air,Consumer Goods,1632.89,3.98,62152.06,2026-06-02,2026-06-02,2026-06-08,2026-06-20,False,12,1,Delayed
+SHP-0756,Canada,Japan,Maersk,Rail,Electronics,3497.55,38.55,77518.95,2026-05-29,2026-05-31,2026-06-16,2026-06-24,True,8,1,Delayed
+SHP-0757,India,Australia,DHL,Sea,Consumer Goods,4557.74,42.74,55162.22,2026-05-27,2026-05-27,2026-06-23,2026-06-24,True,1,1,Delivered
+SHP-0758,China,USA,DHL,Sea,Industrial,2044.27,22.13,66994.65,2026-05-22,2026-05-24,2026-06-10,,False,-2,0,In Transit
+SHP-0759,UAE,India,FedEx,Sea,Electronics,4456.1,28.9,157161.73,2026-04-27,2026-04-28,2026-05-19,2026-05-21,True,2,1,Delivered
+SHP-0760,USA,Canada,UPS,Sea,Consumer Goods,4655.28,7.11,168051.13,2026-05-28,2026-05-29,2026-06-27,2026-07-04,True,7,1,Delayed
+SHP-0761,UAE,China,DHL,Sea,Industrial,1559.98,23.3,25805.43,2026-05-13,2026-05-15,2026-06-10,2026-06-12,False,2,1,Delayed
+SHP-0762,UAE,Canada,FedEx,Road,Pharmaceuticals,4508.74,31.79,124197.58,2026-05-30,2026-05-30,2026-06-08,2026-06-08,True,0,0,Delivered
+SHP-0763,USA,France,FedEx,Rail,Pharmaceuticals,1401.23,40.53,28125.87,2026-05-15,2026-05-16,2026-05-31,2026-05-30,True,-1,0,Delivered
+SHP-0764,UAE,India,FedEx,Air,Consumer Goods,753.74,34.89,31506.68,2026-05-31,2026-05-31,2026-06-04,2026-06-13,True,9,1,Delayed
+SHP-0765,Australia,USA,DHL,Air,Pharmaceuticals,1409.01,45.62,38644.75,2026-05-23,2026-05-25,2026-05-29,2026-05-28,False,-1,0,Delivered
+SHP-0766,Australia,Germany,FedEx,Sea,Perishables,1647.14,31.45,30957.14,2026-05-29,2026-05-31,2026-06-27,2026-07-03,False,6,1,Delayed
+SHP-0767,Germany,India,UPS,Sea,Industrial,1994.81,41.24,97306.11,2026-05-02,2026-05-03,2026-05-25,2026-05-23,True,-2,0,Delivered
+SHP-0768,Japan,Brazil,Maersk,Air,Consumer Goods,1770.71,49.89,36374.03,2026-05-14,2026-05-14,2026-05-19,2026-05-29,True,10,1,Delivered
+SHP-0769,USA,Brazil,UPS,Sea,Industrial,467.3,11.93,12297.39,2026-05-10,2026-05-11,2026-05-28,2026-05-25,True,-3,0,Delivered
+SHP-0770,China,USA,FedEx,Rail,Industrial,2619.71,27.42,52927.93,2026-05-03,2026-05-03,2026-05-13,2026-05-16,True,3,1,Delayed
+SHP-0771,France,Japan,FedEx,Rail,Perishables,1142.06,5.75,14355.17,2026-05-08,2026-05-08,2026-05-16,2026-05-18,False,2,1,Delayed
+SHP-0772,India,UAE,FedEx,Sea,Electronics,2398.22,46.5,85480.82,2026-05-02,2026-05-03,2026-06-02,2026-06-05,True,3,1,Delayed
+SHP-0773,China,Canada,UPS,Road,Industrial,2441.55,18.41,91070.96,2026-05-10,2026-05-10,2026-05-24,2026-05-29,False,5,1,Delayed
+SHP-0774,USA,Brazil,FedEx,Air,Pharmaceuticals,713.73,33.12,8273.48,2026-05-02,2026-05-02,2026-05-06,2026-05-05,True,-1,0,Delivered
+SHP-0775,China,USA,Maersk,Rail,Electronics,477.15,33.87,20446.06,2026-05-03,2026-05-04,2026-05-20,2026-05-20,True,0,0,Delivered
+SHP-0776,UAE,Australia,FedEx,Rail,Perishables,1291.58,27.98,22860.61,2026-05-20,2026-05-20,2026-06-05,2026-06-19,True,14,1,Held at Customs
+SHP-0777,Japan,China,BlueDart,Sea,Electronics,2246.42,17.78,71568.82,2026-05-21,2026-05-23,2026-06-14,2026-06-18,True,4,1,Delayed
+SHP-0778,USA,Canada,Maersk,Rail,Pharmaceuticals,1028.27,20.66,49266.31,2026-05-15,2026-05-15,2026-06-02,,True,0,0,In Transit
+SHP-0779,UAE,Germany,UPS,Sea,Consumer Goods,2906.57,41.16,67053.28,2026-05-24,2026-05-24,2026-06-20,2026-06-19,True,-1,0,Delivered
+SHP-0780,Canada,Australia,FedEx,Rail,Industrial,1375.98,42.08,53146.99,2026-05-04,2026-05-04,2026-05-20,2026-05-24,False,4,1,Delivered
+SHP-0781,China,Japan,BlueDart,Rail,Consumer Goods,1490.61,35.0,33140.05,2026-05-30,2026-05-30,2026-06-15,2026-06-25,True,10,1,Delivered
+SHP-0782,India,Australia,DHL,Air,Industrial,1002.1,6.18,42603.32,2026-05-20,2026-05-20,2026-05-23,2026-05-21,True,-2,0,Delivered
+SHP-0783,Brazil,Canada,DHL,Rail,Industrial,3546.06,41.89,43434.12,2026-05-31,2026-05-31,2026-06-10,2026-06-11,True,1,1,Held at Customs
+SHP-0784,Brazil,China,FedEx,Road,Perishables,193.92,22.17,2195.27,2026-04-30,2026-04-30,2026-05-07,2026-05-18,True,11,1,Delayed
+SHP-0785,Japan,Germany,Maersk,Air,Industrial,1166.87,31.44,13912.78,2026-04-28,2026-04-28,2026-04-30,2026-05-12,True,12,1,Delivered
+SHP-0786,Brazil,Germany,BlueDart,Rail,Electronics,1189.19,11.2,47744.56,2026-06-01,2026-06-03,2026-06-17,2026-06-16,True,-1,0,Delivered
+SHP-0787,France,UAE,DHL,Road,Industrial,4567.0,46.47,75888.95,2026-06-03,2026-06-05,2026-06-14,,True,-2,0,In Transit
+SHP-0788,USA,Brazil,DHL,Road,Electronics,371.68,41.82,10523.08,2026-05-03,2026-05-05,2026-05-12,2026-05-21,False,9,1,Delayed
+SHP-0789,India,Brazil,BlueDart,Sea,Consumer Goods,3107.05,11.93,98887.29,2026-04-27,2026-04-27,2026-05-24,2026-05-24,True,0,0,Delivered
+SHP-0790,France,China,UPS,Air,Industrial,448.08,41.1,10497.3,2026-05-17,2026-05-19,2026-05-19,,True,-3,0,In Transit
+SHP-0791,China,Brazil,BlueDart,Road,Consumer Goods,625.39,21.75,17570.13,2026-05-05,2026-05-05,2026-05-14,2026-05-14,False,0,0,Delivered
+SHP-0792,France,Brazil,Maersk,Rail,Consumer Goods,525.24,12.61,8717.6,2026-05-13,2026-05-13,2026-05-23,2026-06-04,True,12,1,Delayed
+SHP-0793,Canada,UAE,BlueDart,Rail,Consumer Goods,3180.8,14.04,36770.86,2026-05-20,2026-05-20,2026-06-04,2026-06-18,True,14,1,Delayed
+SHP-0794,Australia,USA,DHL,Rail,Pharmaceuticals,1774.57,9.99,18231.28,2026-05-17,2026-05-18,2026-06-02,2026-06-09,True,7,1,Delayed
+SHP-0795,Japan,USA,FedEx,Rail,Pharmaceuticals,745.85,44.47,15663.59,2026-05-10,2026-05-10,2026-05-20,2026-05-20,True,0,0,Delivered
+SHP-0796,Canada,Germany,Maersk,Road,Industrial,2497.27,11.67,32794.32,2026-05-16,2026-05-16,2026-05-30,2026-05-31,True,1,1,Delayed
+SHP-0797,USA,India,FedEx,Road,Industrial,4768.89,12.73,166742.03,2026-05-15,2026-05-16,2026-05-28,2026-05-28,False,0,0,Delivered
+SHP-0798,Canada,UAE,Maersk,Rail,Perishables,3977.68,34.35,87438.37,2026-05-01,2026-05-02,2026-05-18,2026-06-01,False,14,1,Delayed
+SHP-0799,Japan,China,Maersk,Road,Perishables,4901.04,43.56,83113.97,2026-05-04,2026-05-05,2026-05-10,2026-05-09,True,-1,0,Delivered
+SHP-0800,Japan,Canada,FedEx,Sea,Consumer Goods,969.02,1.35,40911.87,2026-05-03,2026-05-03,2026-05-31,2026-06-04,True,4,1,Delivered
+SHP-0801,Germany,China,FedEx,Air,Electronics,4587.49,25.64,191777.32,2026-04-26,2026-04-27,2026-05-02,2026-05-02,True,0,0,Delivered
+SHP-0802,France,Germany,FedEx,Air,Perishables,3698.32,26.56,68523.05,2026-04-30,2026-04-30,2026-05-04,2026-05-02,True,-2,0,Delivered
+SHP-0803,Canada,Germany,UPS,Road,Electronics,2152.75,26.21,82576.41,2026-05-25,2026-05-27,2026-06-05,,False,-3,0,In Transit
+SHP-0804,Germany,Canada,BlueDart,Sea,Electronics,190.8,8.04,6929.47,2026-05-28,2026-05-30,2026-06-26,2026-06-23,False,-3,0,Delivered
+SHP-0805,Japan,Canada,BlueDart,Sea,Consumer Goods,4230.43,22.85,162208.82,2026-05-26,2026-05-28,2026-06-11,2026-06-10,False,-1,0,Delivered
+SHP-0806,USA,Canada,DHL,Sea,Consumer Goods,1871.55,27.21,93294.86,2026-05-19,2026-05-20,2026-06-08,2026-06-18,True,10,1,Delayed
+SHP-0807,China,Canada,BlueDart,Air,Perishables,4086.68,36.03,81536.96,2026-04-26,2026-04-27,2026-04-29,2026-05-07,True,8,1,Held at Customs
+SHP-0808,China,France,FedEx,Air,Electronics,241.13,32.54,5084.41,2026-05-10,2026-05-11,2026-05-13,2026-05-10,False,-3,0,Delivered
+SHP-0809,USA,UAE,Maersk,Sea,Industrial,4799.51,10.42,185716.61,2026-05-25,2026-05-27,2026-06-19,2026-06-26,True,7,1,Delivered
+SHP-0810,France,Australia,FedEx,Rail,Perishables,4732.92,31.97,129737.43,2026-05-16,2026-05-18,2026-06-03,2026-06-12,True,9,1,Delayed
+SHP-0811,France,Japan,Maersk,Air,Pharmaceuticals,813.03,44.02,16884.67,2026-05-14,2026-05-16,2026-05-17,2026-05-15,False,-2,0,Delivered
+SHP-0812,Brazil,Canada,BlueDart,Sea,Industrial,3177.35,41.67,84597.3,2026-05-15,2026-05-16,2026-05-30,2026-05-29,False,-1,0,Delivered
+SHP-0813,UAE,USA,FedEx,Sea,Perishables,3535.61,3.73,164296.66,2026-05-12,2026-05-12,2026-06-11,2026-06-17,False,6,1,Delayed
+SHP-0814,UAE,Brazil,DHL,Air,Industrial,1525.9,43.58,70463.18,2026-05-16,2026-05-17,2026-05-19,2026-05-17,False,-2,0,Delivered
+SHP-0815,Canada,Australia,UPS,Sea,Pharmaceuticals,500.23,11.67,10011.41,2026-06-03,2026-06-04,2026-06-24,2026-06-27,False,3,1,Delayed
+SHP-0816,Australia,India,BlueDart,Road,Industrial,733.97,19.42,10250.51,2026-05-16,2026-05-16,2026-05-30,2026-06-06,False,7,1,Delayed
+SHP-0817,India,China,BlueDart,Road,Industrial,1180.31,9.06,30987.02,2026-04-28,2026-04-28,2026-05-12,2026-05-15,False,3,1,Delayed
+SHP-0818,Australia,China,DHL,Air,Perishables,2634.63,5.13,130106.03,2026-05-16,2026-05-17,2026-05-18,2026-05-17,True,-1,0,Delivered
+SHP-0819,France,Canada,UPS,Rail,Perishables,1601.57,48.15,77803.52,2026-05-04,2026-05-04,2026-05-21,2026-06-02,False,12,1,Delivered
+SHP-0820,USA,Brazil,UPS,Air,Perishables,3111.05,44.73,40894.97,2026-05-05,2026-05-06,2026-05-11,2026-05-17,True,6,1,Delayed
+SHP-0821,Australia,Germany,BlueDart,Sea,Electronics,3689.8,34.55,68199.49,2026-05-26,2026-05-28,2026-06-19,2026-06-29,False,10,1,Held at Customs
+SHP-0822,France,India,BlueDart,Road,Consumer Goods,607.82,35.42,13358.86,2026-05-08,2026-05-10,2026-05-15,2026-05-13,True,-2,0,Delivered
+SHP-0823,Germany,USA,UPS,Sea,Consumer Goods,4903.28,32.86,194566.55,2026-05-07,2026-05-07,2026-05-24,2026-05-26,False,2,1,Delivered
+SHP-0824,Japan,France,BlueDart,Air,Consumer Goods,1906.75,38.72,80917.53,2026-05-17,2026-05-17,2026-05-21,2026-05-21,True,0,0,Delivered
+SHP-0825,Canada,Japan,BlueDart,Rail,Industrial,281.86,4.95,10398.92,2026-04-29,2026-05-01,2026-05-17,2026-05-24,True,7,1,Delayed
+SHP-0826,Germany,UAE,FedEx,Sea,Consumer Goods,3977.42,10.84,167866.09,2026-05-02,2026-05-03,2026-05-25,2026-05-22,True,-3,0,Delivered
+SHP-0827,USA,Germany,FedEx,Air,Industrial,344.31,8.35,10846.88,2026-04-28,2026-04-28,2026-05-04,2026-05-06,False,2,1,Delayed
+SHP-0828,Australia,UAE,BlueDart,Sea,Perishables,3536.68,1.7,42371.21,2026-04-30,2026-04-30,2026-05-19,2026-05-24,True,5,1,Delayed
+SHP-0829,Germany,Japan,BlueDart,Sea,Pharmaceuticals,2351.86,25.45,30312.01,2026-05-03,2026-05-04,2026-05-19,2026-05-25,True,6,1,Delayed
+SHP-0830,USA,Germany,DHL,Rail,Industrial,1684.87,41.14,53007.74,2026-05-16,2026-05-16,2026-05-31,2026-06-03,True,3,1,Delayed
+SHP-0831,Canada,India,Maersk,Air,Perishables,3251.0,38.36,108574.41,2026-05-24,2026-05-26,2026-05-30,2026-06-11,False,12,1,Held at Customs
+SHP-0832,USA,Germany,UPS,Sea,Consumer Goods,4896.84,25.59,138082.44,2026-05-06,2026-05-07,2026-05-28,2026-05-28,True,0,0,Delivered
+SHP-0833,India,Germany,FedEx,Road,Consumer Goods,2776.61,5.38,74189.25,2026-06-03,2026-06-03,2026-06-16,2026-06-28,True,12,1,Delivered
+SHP-0834,UAE,China,UPS,Air,Electronics,731.62,36.28,10276.79,2026-04-28,2026-04-28,2026-05-03,2026-05-02,True,-1,0,Delivered
+SHP-0835,China,France,FedEx,Air,Electronics,1443.4,16.68,58495.23,2026-05-22,2026-05-23,2026-05-24,2026-05-22,False,-2,0,Delivered
+SHP-0836,UAE,Germany,Maersk,Air,Pharmaceuticals,318.09,15.17,8922.87,2026-05-08,2026-05-09,2026-05-11,2026-05-08,False,-3,0,Delivered
+SHP-0837,Canada,China,Maersk,Air,Perishables,1039.19,24.25,25418.05,2026-04-30,2026-05-01,2026-05-06,2026-05-13,True,7,1,Held at Customs
+SHP-0838,Australia,France,BlueDart,Air,Electronics,1770.74,40.47,41691.1,2026-05-15,2026-05-15,2026-05-18,2026-05-24,True,6,1,Delayed
+SHP-0839,Australia,Japan,Maersk,Sea,Consumer Goods,2906.59,12.68,121373.98,2026-05-27,2026-05-27,2026-06-30,2026-07-10,False,10,1,Delayed
+SHP-0840,USA,Canada,BlueDart,Sea,Electronics,1270.34,47.51,28206.61,2026-05-04,2026-05-05,2026-06-04,2026-06-02,False,-2,0,Delivered
+SHP-0841,Brazil,Canada,UPS,Air,Electronics,1522.77,5.02,33409.15,2026-05-08,2026-05-08,2026-05-11,2026-05-20,False,9,1,Held at Customs
+SHP-0842,USA,China,DHL,Road,Pharmaceuticals,2537.83,14.52,99585.5,2026-05-22,2026-05-22,2026-05-29,2026-06-04,False,6,1,Delayed
+SHP-0843,Brazil,Canada,BlueDart,Road,Industrial,1501.84,36.42,71806.4,2026-04-29,2026-04-29,2026-05-13,2026-05-27,False,14,1,Delivered
+SHP-0844,Canada,Japan,FedEx,Rail,Electronics,3448.3,9.99,147714.03,2026-06-02,2026-06-04,2026-06-16,2026-06-20,False,4,1,Delayed
+SHP-0845,Germany,India,DHL,Air,Electronics,501.5,10.6,23946.95,2026-05-23,2026-05-24,2026-05-27,2026-05-24,True,-3,0,Lost
+SHP-0846,Brazil,France,FedEx,Road,Consumer Goods,3541.75,33.29,175546.88,2026-05-07,2026-05-08,2026-05-16,2026-05-15,True,-1,0,Delivered
+SHP-0847,Canada,Australia,Maersk,Sea,Perishables,1978.6,42.02,88268.87,2026-05-12,2026-05-14,2026-06-14,2026-06-27,False,13,1,Held at Customs
+SHP-0848,Canada,France,UPS,Air,Electronics,2744.34,4.8,29422.51,2026-04-30,2026-05-02,2026-05-05,2026-05-03,True,-2,0,Delivered
+SHP-0849,France,Australia,Maersk,Rail,Electronics,3223.27,40.29,92362.75,2026-05-25,2026-05-26,2026-06-02,2026-06-09,False,7,1,Delivered
+SHP-0850,Germany,Canada,Maersk,Sea,Perishables,566.72,2.35,14816.91,2026-05-12,2026-05-12,2026-06-06,2026-06-13,False,7,1,Delivered
+SHP-0851,UAE,Australia,UPS,Rail,Industrial,408.25,10.18,4612.75,2026-05-27,2026-05-27,2026-06-08,2026-06-05,True,-3,0,Delivered
+SHP-0852,Brazil,Japan,Maersk,Rail,Consumer Goods,858.45,15.76,17133.87,2026-05-04,2026-05-04,2026-05-19,2026-05-16,False,-3,0,Delivered
+SHP-0853,India,USA,FedEx,Road,Perishables,4934.19,3.74,77403.9,2026-06-02,2026-06-02,2026-06-07,,True,-1,0,In Transit
+SHP-0854,France,Australia,DHL,Rail,Perishables,2608.5,26.82,84681.77,2026-05-06,2026-05-06,2026-05-25,2026-05-22,False,-3,0,Delivered
+SHP-0855,China,Japan,FedEx,Road,Consumer Goods,2545.63,6.4,65118.85,2026-05-30,2026-05-31,2026-06-09,2026-06-17,True,8,1,Delivered
+SHP-0856,USA,Brazil,FedEx,Air,Consumer Goods,764.57,8.14,28975.11,2026-05-20,2026-05-21,2026-05-23,2026-05-31,False,8,1,Held at Customs
+SHP-0857,Brazil,UAE,Maersk,Road,Electronics,1292.87,42.27,23752.92,2026-05-13,2026-05-15,2026-05-23,2026-05-22,True,-1,0,Lost
+SHP-0858,Brazil,Australia,BlueDart,Air,Industrial,3859.67,46.41,113272.18,2026-05-10,2026-05-11,2026-05-13,2026-05-26,True,13,1,Delayed
+SHP-0859,Canada,France,FedEx,Road,Perishables,3493.32,12.93,165116.56,2026-05-04,2026-05-04,2026-05-16,2026-05-15,True,-1,0,Delivered
+SHP-0860,USA,UAE,FedEx,Road,Perishables,1929.43,8.42,80916.71,2026-05-18,2026-05-20,2026-05-29,2026-06-12,False,14,1,Delivered
+SHP-0861,UAE,USA,UPS,Air,Consumer Goods,964.55,47.84,12361.88,2026-05-10,2026-05-10,2026-05-15,2026-05-25,True,10,1,Held at Customs
+SHP-0862,Canada,Australia,Maersk,Sea,Perishables,4863.19,8.8,117524.67,2026-04-26,2026-04-28,2026-05-17,2026-05-16,False,-1,0,Delivered
+SHP-0863,Japan,Australia,UPS,Road,Pharmaceuticals,3728.5,38.09,127770.65,2026-06-03,2026-06-03,2026-06-16,2026-06-23,False,7,1,Held at Customs
+SHP-0864,Australia,UAE,FedEx,Air,Consumer Goods,952.49,17.54,10213.78,2026-05-13,2026-05-15,2026-05-18,2026-05-15,False,-3,0,Delivered
+SHP-0865,Australia,Japan,UPS,Rail,Consumer Goods,3398.25,49.55,153984.65,2026-05-14,2026-05-16,2026-05-22,2026-05-21,True,-1,0,Delivered
+SHP-0866,France,Canada,FedEx,Sea,Pharmaceuticals,4524.84,3.49,201546.65,2026-05-31,2026-06-02,2026-06-16,,False,-3,0,In Transit
+SHP-0867,Brazil,France,DHL,Sea,Industrial,2792.12,29.95,100821.01,2026-04-30,2026-04-30,2026-05-15,2026-05-23,False,8,1,Held at Customs
+SHP-0868,Japan,China,Maersk,Sea,Electronics,4038.91,25.94,50477.37,2026-05-13,2026-05-13,2026-06-13,2026-06-23,True,10,1,Delayed
+SHP-0869,Japan,Canada,Maersk,Rail,Industrial,2315.85,8.0,59233.39,2026-05-28,2026-05-30,2026-06-12,2026-06-11,True,-1,0,Delivered
+SHP-0870,Japan,Germany,DHL,Road,Perishables,1815.91,5.08,70788.38,2026-05-31,2026-06-01,2026-06-12,2026-06-11,True,-1,0,Delivered
+SHP-0871,India,Canada,DHL,Air,Electronics,3192.82,9.02,104163.01,2026-05-21,2026-05-21,2026-05-25,2026-05-26,False,1,1,Delivered
+SHP-0872,Brazil,France,DHL,Rail,Pharmaceuticals,4454.35,24.71,174329.45,2026-05-26,2026-05-26,2026-06-14,2026-06-27,True,13,1,Held at Customs
+SHP-0873,UAE,Canada,BlueDart,Rail,Electronics,2928.21,32.74,32713.9,2026-05-09,2026-05-11,2026-05-19,2026-05-28,True,9,1,Delivered
+SHP-0874,France,Brazil,UPS,Rail,Pharmaceuticals,2188.86,22.67,80433.68,2026-05-11,2026-05-11,2026-05-26,2026-05-23,True,-3,0,Delivered
+SHP-0875,Germany,Japan,BlueDart,Rail,Industrial,284.07,36.14,8954.96,2026-05-02,2026-05-04,2026-05-16,2026-05-24,True,8,1,Delayed
+SHP-0876,France,USA,BlueDart,Rail,Industrial,2130.73,38.36,98040.19,2026-05-01,2026-05-03,2026-05-18,,False,-1,0,In Transit
+SHP-0877,Germany,Brazil,Maersk,Road,Perishables,2146.77,4.58,44967.65,2026-05-14,2026-05-16,2026-05-25,2026-06-01,True,7,1,Delivered
+SHP-0878,India,Japan,BlueDart,Rail,Perishables,3901.77,22.89,108859.42,2026-05-29,2026-05-29,2026-06-11,2026-06-15,False,4,1,Delivered
+SHP-0879,USA,UAE,FedEx,Rail,Industrial,4257.56,45.39,134810.86,2026-05-14,2026-05-16,2026-05-21,2026-05-25,False,4,1,Delivered
+SHP-0880,Japan,France,DHL,Sea,Perishables,4588.08,31.16,81244.09,2026-05-25,2026-05-26,2026-06-21,2026-07-04,True,13,1,Delivered
+SHP-0881,France,Australia,DHL,Road,Electronics,4155.29,48.43,189454.03,2026-05-23,2026-05-23,2026-06-05,2026-06-04,False,-1,0,Delivered
+SHP-0882,Brazil,France,Maersk,Air,Pharmaceuticals,4471.09,36.91,135627.03,2026-05-19,2026-05-20,2026-05-25,2026-05-23,True,-2,0,Delivered
+SHP-0883,UAE,Canada,BlueDart,Rail,Electronics,2191.27,32.79,85658.36,2026-05-16,2026-05-16,2026-05-29,2026-05-29,True,0,0,Delivered
+SHP-0884,Germany,India,Maersk,Sea,Perishables,4299.06,34.53,194737.31,2026-05-01,2026-05-01,2026-06-04,2026-06-12,True,8,1,Delayed
+SHP-0885,China,UAE,FedEx,Rail,Perishables,1712.46,16.41,52201.85,2026-05-24,2026-05-24,2026-05-31,2026-06-09,True,9,1,Delayed
+SHP-0886,UAE,France,BlueDart,Sea,Electronics,1623.93,44.41,66576.48,2026-05-23,2026-05-25,2026-06-21,2026-07-03,True,12,1,Delayed
+SHP-0887,Brazil,China,DHL,Air,Consumer Goods,2379.86,3.85,48765.65,2026-05-23,2026-05-24,2026-05-25,,True,-3,0,In Transit
+SHP-0888,Australia,China,BlueDart,Sea,Electronics,1414.61,29.95,54968.87,2026-05-05,2026-05-07,2026-05-31,2026-06-06,False,6,1,Held at Customs
+SHP-0889,Germany,USA,BlueDart,Sea,Consumer Goods,2854.51,28.08,41646.38,2026-05-26,2026-05-28,2026-06-25,2026-07-03,False,8,1,Delivered
+SHP-0890,Australia,Canada,DHL,Sea,Pharmaceuticals,3641.91,2.59,123136.89,2026-05-07,2026-05-08,2026-06-01,2026-06-02,False,1,1,Delayed
+SHP-0891,Australia,Brazil,FedEx,Rail,Pharmaceuticals,411.65,28.03,17965.99,2026-04-25,2026-04-27,2026-05-08,2026-05-22,False,14,1,Delivered
+SHP-0892,China,Australia,FedEx,Rail,Pharmaceuticals,3042.97,4.06,118216.28,2026-05-02,2026-05-04,2026-05-20,2026-06-01,False,12,1,Delayed
+SHP-0893,Australia,China,BlueDart,Rail,Electronics,4427.65,47.46,130483.03,2026-05-06,2026-05-07,2026-05-16,2026-05-23,True,7,1,Delivered
+SHP-0894,Brazil,China,Maersk,Rail,Consumer Goods,1176.44,23.01,49243.51,2026-05-28,2026-05-28,2026-06-04,2026-06-12,True,8,1,Held at Customs
+SHP-0895,India,Brazil,FedEx,Rail,Perishables,2746.39,37.73,107390.77,2026-05-05,2026-05-07,2026-05-17,2026-05-17,True,0,0,Delivered
+SHP-0896,Canada,Brazil,BlueDart,Rail,Perishables,2507.52,47.57,63551.49,2026-05-11,2026-05-13,2026-05-24,2026-06-07,True,14,1,Held at Customs
+SHP-0897,Japan,Germany,UPS,Rail,Perishables,1267.23,20.05,35163.17,2026-04-27,2026-04-29,2026-05-04,2026-05-01,True,-3,0,Delivered
+SHP-0898,Canada,Brazil,FedEx,Road,Electronics,1085.76,4.92,31463.29,2026-05-20,2026-05-22,2026-05-27,2026-05-31,True,4,1,Delayed
+SHP-0899,Japan,Brazil,Maersk,Road,Perishables,2842.12,14.69,68082.46,2026-05-07,2026-05-07,2026-05-13,2026-05-24,False,11,1,Held at Customs
+SHP-0900,Brazil,Germany,BlueDart,Rail,Pharmaceuticals,2591.55,12.41,113544.1,2026-05-24,2026-05-25,2026-06-06,2026-06-10,False,4,1,Delayed
+SHP-0901,Germany,India,FedEx,Sea,Electronics,1137.81,39.83,19884.7,2026-05-08,2026-05-08,2026-06-08,2026-06-20,True,12,1,Delivered
+SHP-0902,Brazil,USA,Maersk,Air,Industrial,4192.7,18.9,183072.65,2026-05-05,2026-05-06,2026-05-07,2026-05-20,False,13,1,Delayed
+SHP-0903,USA,China,DHL,Road,Electronics,1180.15,46.34,52774.73,2026-04-30,2026-05-02,2026-05-11,2026-05-14,False,3,1,Delayed
+SHP-0904,Germany,UAE,BlueDart,Sea,Consumer Goods,3154.72,48.56,102080.84,2026-05-08,2026-05-08,2026-05-29,2026-05-26,True,-3,0,Delivered
+SHP-0905,UAE,Germany,Maersk,Air,Pharmaceuticals,2839.77,25.64,44804.36,2026-05-01,2026-05-03,2026-05-03,,True,-3,0,In Transit
+SHP-0906,India,France,DHL,Rail,Perishables,141.63,38.29,5455.67,2026-05-27,2026-05-29,2026-06-07,,True,-2,0,In Transit
+SHP-0907,Germany,India,DHL,Rail,Industrial,1276.74,16.85,22154.65,2026-05-17,2026-05-19,2026-05-29,2026-06-02,False,4,1,Held at Customs
+SHP-0908,India,Brazil,DHL,Rail,Perishables,671.78,33.14,15884.89,2026-05-26,2026-05-27,2026-06-05,2026-06-02,True,-3,0,Delivered
+SHP-0909,India,France,BlueDart,Air,Electronics,481.61,35.63,22540.08,2026-05-10,2026-05-10,2026-05-15,2026-05-12,False,-3,0,Delivered
+SHP-0910,Japan,Germany,FedEx,Rail,Electronics,3344.35,45.72,150334.51,2026-04-28,2026-04-29,2026-05-15,2026-05-28,True,13,1,Delayed
+SHP-0911,Brazil,Japan,FedEx,Air,Perishables,340.83,10.36,14185.53,2026-05-24,2026-05-25,2026-05-28,2026-06-11,False,14,1,Delivered
+SHP-0912,Japan,Germany,BlueDart,Air,Perishables,2012.6,45.54,22470.58,2026-04-26,2026-04-26,2026-04-30,2026-05-05,False,5,1,Delayed
+SHP-0913,Brazil,Canada,BlueDart,Rail,Electronics,3022.33,18.94,127797.05,2026-05-19,2026-05-19,2026-06-05,2026-06-05,False,0,0,Delivered
+SHP-0914,Brazil,Australia,DHL,Air,Consumer Goods,2730.61,46.89,60985.68,2026-05-23,2026-05-25,2026-05-27,2026-05-24,False,-3,0,Delivered
+SHP-0915,Germany,Canada,UPS,Air,Perishables,599.05,36.7,10774.99,2026-04-30,2026-04-30,2026-05-03,2026-05-09,True,6,1,Delivered
+SHP-0916,Australia,Japan,FedEx,Sea,Perishables,2091.2,24.77,66151.1,2026-05-31,2026-06-01,2026-06-26,2026-06-26,False,0,0,Delivered
+SHP-0917,India,UAE,DHL,Air,Consumer Goods,2823.77,35.28,74775.43,2026-05-13,2026-05-15,2026-05-15,2026-05-25,False,10,1,Delayed
+SHP-0918,Australia,Japan,BlueDart,Road,Consumer Goods,439.59,23.36,15116.43,2026-05-21,2026-05-21,2026-05-27,2026-05-30,True,3,1,Delayed
+SHP-0919,Australia,Germany,FedEx,Rail,Electronics,3049.71,35.17,41536.6,2026-04-28,2026-04-30,2026-05-10,2026-05-19,False,9,1,Delayed
+SHP-0920,Australia,Canada,UPS,Road,Perishables,4309.0,5.35,192180.53,2026-05-26,2026-05-26,2026-06-03,2026-06-02,True,-1,0,Delivered
+SHP-0921,USA,France,DHL,Rail,Consumer Goods,1330.84,16.71,20493.79,2026-05-23,2026-05-25,2026-05-30,2026-06-02,False,3,1,Delayed
+SHP-0922,Germany,Canada,Maersk,Rail,Consumer Goods,1798.92,37.58,82283.32,2026-05-15,2026-05-17,2026-05-22,2026-05-20,False,-2,0,Delivered
+SHP-0923,UAE,France,Maersk,Road,Electronics,1467.81,32.67,65952.28,2026-05-04,2026-05-06,2026-05-16,2026-05-24,True,8,1,Delayed
+SHP-0924,India,Japan,DHL,Sea,Industrial,4384.93,3.13,89632.95,2026-05-29,2026-05-29,2026-06-23,2026-06-22,True,-1,0,Delivered
+SHP-0925,Canada,China,DHL,Road,Industrial,2633.33,26.95,68559.5,2026-05-09,2026-05-10,2026-05-16,2026-05-26,False,10,1,Delayed
+SHP-0926,Germany,China,Maersk,Rail,Industrial,3971.64,11.67,147274.42,2026-05-20,2026-05-21,2026-06-03,2026-06-16,False,13,1,Held at Customs
+SHP-0927,China,France,UPS,Rail,Electronics,4063.41,15.44,133476.99,2026-05-17,2026-05-19,2026-05-25,2026-06-08,True,14,1,Held at Customs
+SHP-0928,Brazil,Australia,Maersk,Road,Electronics,4108.02,46.57,130648.74,2026-05-27,2026-05-27,2026-06-09,2026-06-11,False,2,1,Held at Customs
+SHP-0929,UAE,Australia,FedEx,Air,Consumer Goods,4136.35,42.99,110044.64,2026-05-19,2026-05-21,2026-05-25,2026-05-30,False,5,1,Held at Customs
+SHP-0930,Japan,Australia,Maersk,Air,Industrial,4455.39,37.54,50819.42,2026-05-04,2026-05-05,2026-05-10,2026-05-10,False,0,0,Delivered
+SHP-0931,Brazil,India,FedEx,Road,Pharmaceuticals,1195.65,46.74,28437.18,2026-05-15,2026-05-15,2026-05-28,2026-05-30,False,2,1,Delayed
+SHP-0932,China,Brazil,UPS,Rail,Pharmaceuticals,4453.81,22.65,69986.44,2026-05-18,2026-05-19,2026-06-02,2026-06-01,False,-1,0,Lost
+SHP-0933,France,Canada,FedEx,Sea,Perishables,2437.84,49.73,90606.88,2026-04-25,2026-04-27,2026-05-14,2026-05-20,True,6,1,Held at Customs
+SHP-0934,Germany,China,FedEx,Sea,Consumer Goods,2639.76,29.78,44792.57,2026-05-30,2026-05-30,2026-06-22,2026-06-24,False,2,1,Delivered
+SHP-0935,Australia,Japan,FedEx,Sea,Consumer Goods,4996.12,15.06,106008.69,2026-05-30,2026-06-01,2026-06-19,2026-06-28,True,9,1,Delayed
+SHP-0936,Japan,Brazil,FedEx,Sea,Consumer Goods,2765.75,28.43,85197.87,2026-05-16,2026-05-16,2026-06-03,2026-06-07,True,4,1,Delayed
+SHP-0937,USA,Japan,DHL,Sea,Industrial,3216.92,9.07,87478.51,2026-05-08,2026-05-09,2026-05-27,2026-06-06,False,10,1,Delivered
+SHP-0938,India,UAE,BlueDart,Sea,Consumer Goods,777.59,21.88,24955.09,2026-04-30,2026-05-02,2026-06-03,2026-06-12,True,9,1,Delivered
+SHP-0939,Australia,Canada,DHL,Air,Consumer Goods,4711.95,43.23,153474.53,2026-06-01,2026-06-03,2026-06-07,,True,-3,0,In Transit
+SHP-0940,India,UAE,DHL,Sea,Electronics,622.1,34.73,12685.72,2026-04-30,2026-05-02,2026-05-25,2026-05-23,False,-2,0,Delivered
+SHP-0941,Japan,Canada,UPS,Rail,Electronics,379.79,6.42,7130.78,2026-05-24,2026-05-26,2026-06-09,2026-06-17,False,8,1,Delayed
+SHP-0942,Germany,USA,FedEx,Rail,Industrial,1735.15,16.51,71071.4,2026-05-13,2026-05-14,2026-05-28,2026-05-26,True,-2,0,Delivered
+SHP-0943,Australia,France,BlueDart,Sea,Electronics,741.32,12.54,35064.55,2026-05-01,2026-05-01,2026-05-24,2026-06-05,False,12,1,Delayed
+SHP-0944,China,Germany,UPS,Rail,Pharmaceuticals,2649.59,48.79,128851.73,2026-05-10,2026-05-11,2026-05-26,2026-06-07,False,12,1,Delayed
+SHP-0945,Brazil,Canada,UPS,Road,Electronics,4814.76,15.21,212416.47,2026-05-30,2026-06-01,2026-06-11,2026-06-25,True,14,1,Delivered
+SHP-0946,Canada,USA,DHL,Road,Perishables,1880.28,20.12,26782.09,2026-06-03,2026-06-05,2026-06-11,2026-06-16,True,5,1,Delayed
+SHP-0947,Brazil,India,FedEx,Air,Consumer Goods,2997.62,36.24,119334.23,2026-05-31,2026-06-01,2026-06-02,2026-06-01,False,-1,0,Delivered
+SHP-0948,Canada,Japan,BlueDart,Road,Electronics,2299.37,30.35,29591.54,2026-05-31,2026-06-01,2026-06-07,2026-06-05,True,-2,0,Delivered
+SHP-0949,Australia,China,UPS,Rail,Perishables,1702.33,31.77,35761.88,2026-05-25,2026-05-27,2026-06-10,,False,-3,0,In Transit
+SHP-0950,Japan,USA,DHL,Road,Industrial,1083.1,36.04,24475.98,2026-05-03,2026-05-04,2026-05-10,2026-05-07,True,-3,0,Delivered
+SHP-0951,Canada,Japan,FedEx,Air,Consumer Goods,3690.91,17.48,85423.06,2026-05-22,2026-05-24,2026-05-24,,False,0,0,In Transit
+SHP-0952,Germany,India,DHL,Road,Pharmaceuticals,2479.59,35.5,27750.63,2026-05-31,2026-05-31,2026-06-11,2026-06-10,False,-1,0,Delivered
+SHP-0953,Canada,USA,DHL,Road,Perishables,4286.83,1.24,203480.61,2026-05-12,2026-05-12,2026-05-19,2026-05-18,False,-1,0,Delivered
+SHP-0954,USA,Canada,BlueDart,Air,Industrial,2356.85,45.14,111243.83,2026-05-03,2026-05-05,2026-05-06,2026-05-14,True,8,1,Delivered
+SHP-0955,UAE,Canada,UPS,Sea,Perishables,117.92,16.68,3168.62,2026-05-24,2026-05-26,2026-06-26,2026-07-04,True,8,1,Delivered
+SHP-0956,Canada,China,DHL,Road,Consumer Goods,3252.51,13.86,39335.49,2026-05-09,2026-05-09,2026-05-16,2026-05-14,False,-2,0,Delivered
+SHP-0957,Germany,Australia,Maersk,Air,Electronics,4526.35,4.41,55804.01,2026-06-02,2026-06-04,2026-06-08,2026-06-12,True,4,1,Delayed
+SHP-0958,Australia,USA,BlueDart,Rail,Consumer Goods,4563.09,31.15,120820.87,2026-04-27,2026-04-29,2026-05-15,2026-05-19,False,4,1,Delivered
+SHP-0959,UAE,Australia,Maersk,Rail,Industrial,2792.2,33.15,70613.32,2026-05-04,2026-05-04,2026-05-16,,False,-2,0,In Transit
+SHP-0960,Germany,UAE,FedEx,Rail,Industrial,558.25,21.93,8457.59,2026-05-11,2026-05-13,2026-05-29,2026-06-03,True,5,1,Held at Customs
+SHP-0961,Australia,Canada,DHL,Sea,Consumer Goods,1975.37,38.1,43904.45,2026-05-02,2026-05-02,2026-05-30,2026-05-31,True,1,1,Held at Customs
+SHP-0962,Brazil,USA,DHL,Road,Consumer Goods,4422.95,8.2,169999.5,2026-05-11,2026-05-13,2026-05-23,2026-05-26,True,3,1,Delayed
+SHP-0963,Japan,Brazil,BlueDart,Road,Industrial,2393.9,44.49,85344.04,2026-05-07,2026-05-09,2026-05-12,2026-05-18,True,6,1,Delayed
+SHP-0964,UAE,Brazil,DHL,Road,Perishables,2058.63,47.73,73461.0,2026-05-07,2026-05-09,2026-05-12,2026-05-26,False,14,1,Delayed
+SHP-0965,Canada,France,DHL,Air,Industrial,2130.2,6.51,27746.31,2026-05-11,2026-05-12,2026-05-13,2026-05-11,False,-2,0,Delivered
+SHP-0966,France,Australia,Maersk,Sea,Pharmaceuticals,749.1,33.94,22733.45,2026-05-31,2026-05-31,2026-06-28,2026-07-07,False,9,1,Delivered
+SHP-0967,Australia,Germany,BlueDart,Air,Consumer Goods,1585.72,22.04,45713.51,2026-05-28,2026-05-29,2026-06-03,2026-06-02,False,-1,0,Delivered
+SHP-0968,Brazil,France,UPS,Air,Industrial,508.56,46.5,16878.84,2026-05-17,2026-05-17,2026-05-20,,True,-1,0,In Transit
+SHP-0969,India,France,UPS,Air,Consumer Goods,3145.39,2.9,54952.8,2026-05-24,2026-05-24,2026-05-30,2026-06-07,True,8,1,Delivered
+SHP-0970,Canada,China,Maersk,Air,Electronics,1946.37,27.14,19482.46,2026-05-08,2026-05-09,2026-05-13,2026-05-11,True,-2,0,Lost
+SHP-0971,Japan,China,FedEx,Rail,Electronics,917.14,30.73,35186.16,2026-05-26,2026-05-28,2026-06-14,2026-06-14,False,0,0,Delivered
+SHP-0972,India,Canada,DHL,Road,Industrial,459.2,44.81,8782.95,2026-05-23,2026-05-23,2026-06-05,2026-06-13,True,8,1,Delivered
+SHP-0973,France,Australia,BlueDart,Air,Electronics,2068.89,4.74,81323.94,2026-05-20,2026-05-20,2026-05-25,2026-05-25,True,0,0,Delivered
+SHP-0974,Germany,France,DHL,Sea,Perishables,2970.31,29.75,82661.33,2026-05-14,2026-05-15,2026-06-09,2026-06-06,True,-3,0,Delivered
+SHP-0975,France,Germany,DHL,Air,Perishables,3941.46,20.35,141269.33,2026-05-01,2026-05-02,2026-05-04,2026-05-18,False,14,1,Delayed
+SHP-0976,France,Japan,Maersk,Air,Electronics,1105.42,24.87,49887.71,2026-04-25,2026-04-25,2026-04-27,2026-05-06,True,9,1,Delayed
+SHP-0977,Canada,Brazil,DHL,Road,Electronics,2503.2,6.87,105400.36,2026-05-14,2026-05-15,2026-05-28,2026-06-11,False,14,1,Delayed
+SHP-0978,India,Australia,FedEx,Air,Perishables,3205.61,23.05,75372.49,2026-05-20,2026-05-21,2026-05-23,2026-05-24,True,1,1,Delayed
+SHP-0979,Canada,Germany,BlueDart,Rail,Industrial,165.71,1.95,8106.28,2026-04-25,2026-04-25,2026-05-02,2026-05-03,True,1,1,Delivered
+SHP-0980,Germany,Brazil,UPS,Sea,Pharmaceuticals,2898.36,1.44,58872.75,2026-05-23,2026-05-25,2026-06-08,2026-06-21,False,13,1,Delivered
+SHP-0981,Canada,Australia,DHL,Air,Industrial,3304.57,31.31,74002.16,2026-06-03,2026-06-03,2026-06-07,2026-06-04,False,-3,0,Delivered
+SHP-0982,Germany,India,DHL,Rail,Perishables,722.8,18.48,24357.87,2026-05-05,2026-05-06,2026-05-18,2026-05-15,False,-3,0,Lost
+SHP-0983,China,UAE,BlueDart,Air,Pharmaceuticals,4841.93,16.76,241754.47,2026-05-24,2026-05-26,2026-05-27,2026-05-24,True,-3,0,Delivered
+SHP-0984,Brazil,USA,FedEx,Road,Industrial,1299.25,44.19,34607.53,2026-05-08,2026-05-09,2026-05-14,2026-05-19,False,5,1,Delivered
+SHP-0985,France,Japan,Maersk,Road,Pharmaceuticals,2633.88,45.5,111083.83,2026-04-29,2026-04-29,2026-05-11,2026-05-09,False,-2,0,Delivered
+SHP-0986,Australia,France,DHL,Sea,Electronics,4409.37,21.09,129105.46,2026-04-26,2026-04-27,2026-05-28,,True,-2,0,In Transit
+SHP-0987,Germany,Australia,UPS,Rail,Industrial,2358.26,33.89,38881.42,2026-06-03,2026-06-04,2026-06-22,2026-06-19,True,-3,0,Delivered
+SHP-0988,Australia,USA,BlueDart,Rail,Consumer Goods,4922.18,37.08,201661.94,2026-05-06,2026-05-08,2026-05-21,2026-05-24,True,3,1,Delivered
+SHP-0989,India,Germany,Maersk,Road,Pharmaceuticals,3167.88,44.67,95753.15,2026-05-07,2026-05-07,2026-05-14,2026-05-26,True,12,1,Delivered
+SHP-0990,Japan,Brazil,FedEx,Air,Consumer Goods,4815.59,44.62,100231.42,2026-04-26,2026-04-27,2026-04-30,2026-04-27,True,-3,0,Delivered
+SHP-0991,Australia,France,DHL,Road,Industrial,2946.75,36.76,77904.16,2026-05-26,2026-05-26,2026-06-04,2026-06-03,True,-1,0,Delivered
+SHP-0992,Brazil,USA,BlueDart,Rail,Pharmaceuticals,2345.44,13.86,46136.17,2026-05-12,2026-05-12,2026-05-21,2026-05-26,True,5,1,Delayed
+SHP-0993,Germany,USA,FedEx,Road,Consumer Goods,3773.66,5.74,109595.65,2026-05-01,2026-05-02,2026-05-09,2026-05-06,False,-3,0,Delivered
+SHP-0994,India,UAE,UPS,Road,Consumer Goods,1244.76,21.07,51288.3,2026-05-22,2026-05-22,2026-06-04,,True,-1,0,In Transit
+SHP-0995,India,Brazil,Maersk,Rail,Perishables,961.34,8.1,19410.13,2026-05-17,2026-05-19,2026-05-24,2026-06-06,False,13,1,Delayed
+SHP-0996,Canada,India,FedEx,Air,Perishables,4067.87,44.44,83478.58,2026-04-29,2026-04-29,2026-05-03,2026-05-01,False,-2,0,Delivered
+SHP-0997,Brazil,China,BlueDart,Air,Consumer Goods,3698.12,32.16,166413.58,2026-04-27,2026-04-28,2026-04-29,2026-04-28,True,-1,0,Lost
+SHP-0998,Brazil,USA,FedEx,Sea,Pharmaceuticals,2249.2,38.26,60308.55,2026-05-11,2026-05-13,2026-06-10,2026-06-16,True,6,1,Held at Customs
+SHP-0999,USA,India,Maersk,Rail,Electronics,3930.01,6.07,56185.67,2026-04-27,2026-04-27,2026-05-16,,False,-1,0,In Transit
+SHP-1000,China,USA,Maersk,Sea,Perishables,2749.71,48.43,55564.19,2026-05-23,2026-05-23,2026-06-16,2026-06-14,False,-2,0,Delivered
