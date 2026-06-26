@@ -169,7 +169,7 @@ Projet/
 ### 1. Clone Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/iamsonukj/Assignment--Supply-Chain-Platform
 cd Projet
 ```
 
